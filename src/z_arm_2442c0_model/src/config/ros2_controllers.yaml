@@ -1,0 +1,41 @@
+# This config file is used by ros2_control
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    camera_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    
+    # camera_base_controller:
+    #   type: joint_trajectory_controller/JointTrajectoryController
+
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+camera_controller:
+  ros__parameters:
+    joints:
+      - fixed_lift_joint
+      - lift_revo_joint
+      - double_revo_1_joint
+      - double_revo_2_joint
+      - camera_1_joint
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+
+# camera_base_controller:
+#   ros__parameters:
+#     joints:
+#       - fixed_lift_joint
+#       - lift_revo_joint
+#       - double_revo_1_joint
+#       - double_revo_2_joint
+#     command_interfaces:
+#       - position
+#     state_interfaces:
+#       - position
+#       - velocity

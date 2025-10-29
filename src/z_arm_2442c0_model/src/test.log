@@ -1,0 +1,24 @@
+[move_group-1] [INFO] [1761291108.532214383] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-1] [INFO] [1761291108.532399665] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-1] [INFO] [1761291108.532492220] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-1] [INFO] [1761291108.532502399] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[move_group-1] [WARN] [1761291108.536142465] [moveit.ompl_planning.planning_context_manager]: Cannot find planning configuration for group 'camera_1_group' using planner 'RRTConnect'. Will use defaults instead.
+[move_group-1] [INFO] [1761291108.536353996] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'camera_1_group' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[rviz2-2] [ERROR] [1761291108.623151319] [moveit_transforms.transforms]: Given transform is to frame 'base_link', but frame 'world' was expected.
+[rviz2-2] [ERROR] [1761291108.623178430] [moveit_transforms.transforms]: Given transform is to frame 'base_link', but frame 'world' was expected.
+[move_group-1] [ERROR] [1761291109.543625613] [ompl]: ./src/ompl/geometric/planners/rrt/src/RRTConnect.cpp:265 - camera_1_group/camera_1_group: Unable to sample any valid states for goal tree
+[move_group-1] [WARN] [1761291109.543677000] [moveit.ompl_planning.model_based_planning_context]: Invalid goal state
+[move_group-1] [INFO] [1761291110.549655192] [moveit.ompl_planning.model_based_planning_context]: Unable to solve the planning problem
+[move_group-1] [INFO] [1761291110.549705778] [moveit_move_group_default_capabilities.move_action_capability]: Unknown event
+[rviz2-2] [INFO] [1761291116.301481731] [move_group_interface]: MoveGroup action client/server ready
+[move_group-1] [INFO] [1761291116.301717519] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-1] [INFO] [1761291116.301851142] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-1] [INFO] [1761291116.301939941] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-1] [INFO] [1761291116.301953376] [moveit_move_group_capabilities_base.move_group_capability]: Using planning pipeline 'ompl'
+[rviz2-2] [INFO] [1761291116.301946313] [move_group_interface]: Planning request accepted
+[move_group-1] [INFO] [1761291116.305638457] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'camera_1_group' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[rviz2-2] [ERROR] [1761291116.375219620] [moveit_transforms.transforms]: Given transform is to frame 'base_link', but frame 'world' was expected.
+[rviz2-2] [ERROR] [1761291116.375242132] [moveit_transforms.transforms]: Given transform is to frame 'base_link', but frame 'world' was expected.
+[move_group-1] [INFO] [1761291116.718533408] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[rviz2-2] [INFO] [1761291116.718956832] [move_group_interface]: Planning request complete!
+[rviz2-2] [INFO] [1761291116.718995154] [move_group_interface]: time taken to generate plan: 0.336398 seconds

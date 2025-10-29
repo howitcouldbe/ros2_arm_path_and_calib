@@ -1,0 +1,515 @@
+<!-- <?xml version="1.0" encoding="utf-8"?> -->
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="z_arm_2442c0">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.18371 -0.036956 1.0828"
+        rpy="0 0 0" />
+      <mass
+        value="1311.6" />
+      <inertia
+        ixx="604.63"
+        ixy="-8.8817"
+        ixz="27.771"
+        iyy="546.1"
+        iyz="4.8371"
+        izz="549.71" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0.044"
+        rpy="0 0 0" />
+      <geometry>
+         <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/base_link.STL"/>
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0.044"
+        rpy="0 0 0" />
+      <geometry>
+         <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/base_link.STL"/>
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="door_link">
+    <inertial>
+      <origin
+        xyz="0.000906627818809458 -0.00848429199587175 -0.0177814412093629"
+        rpy="0 0 0" />
+      <mass
+        value="85.7009910260309" />
+      <inertia
+        ixx="11.4196065030808"
+        ixy="-0.00532670528961088"
+        ixz="0.000390873878802149"
+        iyy="24.6809750482461"
+        iyz="-0.00570672117476616"
+        izz="13.5149037455903" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+         <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/door_link.STL"/>
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+          <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/door_link.STL"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="door_joint"
+    type="revolute">
+    <origin
+      xyz="1.1569 -1.0402 1.341"
+      rpy="0 0 -0.34907" />
+    <parent
+      link="base_link" />
+    <child
+      link="door_link" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="fixed_link">
+    <inertial>
+      <origin
+        xyz="-0.013691 -0.00061437 0.2572"
+        rpy="0 0 0" />
+      <mass
+        value="2.2298" />
+      <inertia
+        ixx="0.050665"
+        ixy="5.3209E-05"
+        ixz="-0.00015617"
+        iyy="0.049468"
+        iyz="-0.00057632"
+        izz="0.01024" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/fixed_link.STL"/>
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/fixed_link.STL"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="fixed_joint"
+    type="fixed">
+    <origin
+      xyz="-0.225 -0.15 1.025"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="fixed_link" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="lift_link">
+    <inertial>
+      <origin
+        xyz="0.081223 -7.7483E-05 -0.025227"
+        rpy="0 0 0" />
+      <mass
+        value="0.99372" />
+      <inertia
+        ixx="0.00095014"
+        ixy="-1.4453E-05"
+        ixz="7.3306E-05"
+        iyy="0.0034291"
+        iyz="-2.0913E-06"
+        izz="0.0039252" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/lift_link.STL"/>
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/lift_link.STL"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="fixed_lift_joint"
+    type="prismatic">
+    <origin
+      xyz="0 0 0.4889"
+      rpy="0 0 0" />
+    <parent
+      link="fixed_link" />
+    <child
+      link="lift_link" />
+    <axis
+      xyz="0 0 -1" />
+  <limit lower="-0.068" upper="0.268" effort="10.0" velocity="2.5" />
+  </joint>
+  <link
+    name="revolute_1_link">
+    <inertial>
+      <origin
+        xyz="0.0759324011920596 -0.0813064180574647 0.0368742891101176"
+        rpy="0 0 0" />
+      <mass
+        value="2.3889553320756" />
+      <inertia
+        ixx="0.0117771347782528"
+        ixy="0.00815174724690121"
+        ixz="6.45200634943833E-05"
+        iyy="0.0106473588161978"
+        iyz="-6.91006905001612E-05"
+        izz="0.0205254157930983" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/revolute_1_link.STL"/>
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+       <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/revolute_1_link.STL"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lift_revo_joint"
+    type="revolute">
+    <origin
+      xyz="0.13274 7.0966E-05 -0.125"
+      rpy="0 0 -0.18942" />
+    <parent
+      link="lift_link" />
+    <child
+      link="revolute_1_link" />
+    <axis
+      xyz="0 0 -1" />
+  <limit lower="-2.588" upper="0.552" effort="10.0" velocity="2.5" />
+
+  </joint>
+  <link
+    name="revolute_2_link">
+    <inertial>
+      <origin
+        xyz="0.0522949600834687 0.0855137960921717 0.0213040321252103"
+        rpy="0 0 0" />
+      <mass
+        value="1.22952478849448" />
+      <inertia
+        ixx="0.00621294779223653"
+        ixy="-0.00309933388993428"
+        ixz="-4.07586633664313E-06"
+        iyy="0.00303409226060276"
+        iyz="-5.93940296260018E-06"
+        izz="0.00890315462045466" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/revolute_2_link.STL"/>
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/revolute_2_link.STL"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="double_revo_1_joint"
+    type="revolute">
+    <origin
+      xyz="0.15012 -0.16082 -0.048"
+      rpy="0 0 0.18942" />
+    <parent
+      link="revolute_1_link" />
+    <child
+      link="revolute_2_link" />
+    <axis
+      xyz="0 0 1" />
+  <limit lower="-4.863" upper="0.861" effort="10.0" velocity="2.5" />
+  </joint>
+  <link
+    name="revolute_3_link">
+    <inertial>
+      <origin
+        xyz="-0.000423548557774212 -0.000692804837223088 0.00756235733455224"
+        rpy="0 0 0" />
+      <mass
+        value="0.0445549065270102" />
+      <inertia
+        ixx="1.84693568673722E-05"
+        ixy="1.17973969505628E-07"
+        ixz="4.21793415582325E-08"
+        iyy="1.85902049223337E-05"
+        iyz="6.89933871768008E-08"
+        izz="3.28004247480036E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/revolute_3_link.STL"/>
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/revolute_3_link.STL"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="double_revo_2_joint"
+    type="continuous">
+    <origin
+      xyz="0.10492 0.17163 -0.0119"
+      rpy="0 0 0" />
+    <parent
+      link="revolute_2_link" />
+    <child
+      link="revolute_3_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit effort="10.0" velocity="2.5"/>
+  </joint>
+
+
+  <link name="camera_base_link">
+    <inertial>
+      <origin
+        xyz="-1.3878E-17 5.5511E-17 -0.0585"
+        rpy="0 0 0" />
+      <mass
+        value="2.6147" />
+      <inertia
+        ixx="0.0076326"
+        ixy="2.537E-18"
+        ixz="8.4703E-19"
+        iyy="0.0076326"
+        iyz="3.1713E-19"
+        izz="0.0092998" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/camera_base_link.STL"/>
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/camera_base_link.STL"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="camera_base_joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="revolute_3_link" />
+    <child
+      link="camera_base_link" />
+  </joint>
+  <link
+    name="camera_1_link">
+    <inertial>
+      <origin
+        xyz="0.00096782 -0.00097658 0.073849"
+        rpy="0 0 0" />
+      <mass
+        value="1.4455" />
+      <inertia
+        ixx="0.0034619"
+        ixy="-5.4771E-10"
+        ixz="9.3932E-12"
+        iyy="0.0034619"
+        iyz="5.6821E-11"
+        izz="0.0023486" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/camera_1_link.STL"/>
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/camera_1_link.STL"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="camera_1_joint"
+    type="prismatic">
+    <origin
+      xyz="-0.00041282 -0.015045 -0.2777"
+      rpy="0 0 0" />
+    <parent
+      link="camera_base_link" />
+    <child
+      link="camera_1_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit lower="0.0" upper="0.001" effort="1.0" velocity="0.1"/>
+  </joint>
+  <link
+    name="camera_2_link">
+    <inertial>
+      <origin
+        xyz="-0.00091234 -0.00013263 0.078499"
+        rpy="0 0 0" />
+      <mass
+        value="0.023068" />
+      <inertia
+        ixx="2.8003E-06"
+        ixy="-2.0896E-09"
+        ixz="1.0155E-09"
+        iyy="2.5455E-06"
+        iyz="-6.808E-10"
+        izz="2.7334E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/camera_2_link.STL"/>
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/camera_2_link.STL"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="camera_2_joint"
+    type="prismatic">
+    <origin
+      xyz="-0.0009298 0.056015 -0.22685"
+      rpy="0 0 0" />
+    <parent
+      link="camera_base_link" />
+    <child
+      link="camera_2_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit lower="0.0" upper="0.001" effort="1.0" velocity="0.1"/>
+  </joint>
+</robot>

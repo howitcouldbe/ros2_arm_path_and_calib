@@ -1,0 +1,30 @@
+# MoveIt uses this configuration for controller management
+
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+moveit_simple_controller_manager:
+  controller_names:
+    - camera_controller
+    # - camera_base_controller
+
+  camera_controller:
+    type: FollowJointTrajectory
+    joints:
+      - fixed_lift_joint
+      - lift_revo_joint
+      - double_revo_1_joint
+      - double_revo_2_joint
+      - camera_1_joint
+    action_ns: follow_joint_trajectory
+    default: true
+
+  # camera_base_controller:
+  #   type: FollowJointTrajectory
+  #   joints:
+  #     - fixed_lift_joint
+  #     - lift_revo_joint
+  #     - double_revo_1_joint
+  #     - double_revo_2_joint
+  #     - camera_1_joint
+  #   action_ns: follow_joint_trajectory
+  #   default: true

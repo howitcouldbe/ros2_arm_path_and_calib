@@ -1,0 +1,1 @@
+controller_joint_names: ['', 'base_lift_joint', 'lift_revo_joint', 'double_revo_1_joint', 'double_revo_2_joint', ]
