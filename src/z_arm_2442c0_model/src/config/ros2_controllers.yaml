@@ -16,11 +16,11 @@ controller_manager:
 camera_controller:
   ros__parameters:
     joints:
-      - fixed_lift_joint
-      - lift_revo_joint
-      - double_revo_1_joint
-      - double_revo_2_joint
-      - camera_1_joint
+      - lift_joint
+      - revolute_1_joint
+      - revolute_2_joint
+      - revolute_3_joint
+      - camera_1_rot_joint
     command_interfaces:
       - position
     state_interfaces:

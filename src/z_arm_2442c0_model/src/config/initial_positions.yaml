@@ -1,7 +1,7 @@
 # Default initial positions for z_arm_2442c0's ros2_control fake system
 
 initial_positions:
-  double_revo_1_joint: -77
-  double_revo_2_joint: 48
-  fixed_lift_joint: 0
-  lift_revo_joint: -44
+  revolute_1_joint: -77
+  revolute_2_joint: 48
+  revolute_3_joint: 0
+  lift_joint: -44
