@@ -32,7 +32,7 @@
         xyz="0 0 0.044"
         rpy="0 0 0" />
       <geometry>
-         <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/base_link.STL"/>
+         <mesh filename="file://$(find z_arm_2442c0_model)/meshes/base_link.STL"/>
       </geometry>
       <material
         name="">
@@ -45,7 +45,7 @@
         xyz="0 0 0.044"
         rpy="0 0 0" />
       <geometry>
-         <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/base_link.STL"/>
+         <mesh filename="file://$(find z_arm_2442c0_model)/meshes/base_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -70,7 +70,7 @@
         xyz="0.0 0.0 0.0"
         rpy="0 0 0" />
       <geometry>
-         <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/door_link.STL"/>
+         <mesh filename="file://$(find z_arm_2442c0_model)/meshes/door_link.STL"/>
       </geometry>
       <material
         name="">
@@ -83,7 +83,7 @@
         xyz="0.0 0.0 0.0"
         rpy="0 0 0" />
       <geometry>
-          <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/door_link.STL"/>
+          <mesh filename="file://$(find z_arm_2442c0_model)/meshes/door_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -127,7 +127,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/fixed_link.STL"/>
+        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/fixed_link.STL"/>
       </geometry>
       <material
         name="">
@@ -140,7 +140,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/fixed_link.STL"/>
+        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/fixed_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -178,7 +178,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/lift_link.STL"/>
+        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/lift_link.STL"/>
       </geometry>
       <material
         name="">
@@ -191,7 +191,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/lift_link.STL"/>
+        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/lift_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -231,7 +231,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/revolute_1_link.STL"/>
+        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/revolute_1_link.STL"/>
       </geometry>
       <material
         name="">
@@ -244,7 +244,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-       <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/revolute_1_link.STL"/>
+       <mesh filename="file://$(find z_arm_2442c0_model)/meshes/revolute_1_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -285,7 +285,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/revolute_2_link.STL"/>
+        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/revolute_2_link.STL"/>
       </geometry>
       <material
         name="">
@@ -298,7 +298,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/revolute_2_link.STL"/>
+        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/revolute_2_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -338,7 +338,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/revolute_3_link.STL"/>
+        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/revolute_3_link.STL"/>
       </geometry>
       <material
         name="">
@@ -351,7 +351,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/revolute_3_link.STL"/>
+        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/revolute_3_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -391,7 +391,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/camera_base_link.STL"/>
+        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/camera_base_link.STL"/>
       </geometry>
       <material
         name="">
@@ -404,7 +404,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/camera_base_link.STL"/>
+        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/camera_base_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -440,7 +440,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/camera_1_link.STL"/>
+        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/camera_1_link.STL"/>
       </geometry>
       <material
         name="">
@@ -453,7 +453,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/camera_1_link.STL"/>
+        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/camera_1_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -492,7 +492,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/camera_2_link.STL"/>
+        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/camera_2_link.STL"/>
       </geometry>
       <material
         name="">
@@ -505,7 +505,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/sunshine/project/z_arm_2442c0/install/z_arm_2442c0_model/share/z_arm_2442c0_model/meshes/camera_2_link.STL"/>
+        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/camera_2_link.STL"/>
       </geometry>
     </collision>
   </link>

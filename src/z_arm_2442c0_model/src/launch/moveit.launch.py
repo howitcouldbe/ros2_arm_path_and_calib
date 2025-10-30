@@ -16,7 +16,6 @@ from launch_ros.parameter_descriptions import ParameterValue
 
 def generate_launch_description():
     moveit_config = MoveItConfigsBuilder("z_arm_2442c0", package_name="z_arm_2442c0_model").to_moveit_configs() 
-    print("------------------------------------------",moveit_config.planning_pipelines,"----------------------------")
     ld = LaunchDescription()
 
     # 启动move_group
