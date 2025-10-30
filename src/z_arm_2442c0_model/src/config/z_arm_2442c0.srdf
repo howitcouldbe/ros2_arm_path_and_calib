@@ -74,8 +74,8 @@
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="camera_1_effector" parent_link="camera_1_link" group="camera_1_group" parent_group="camera_group"/>
-    <!-- <end_effector name="camera_2_effector" parent_link="camera_2_link" group="camera_2_group" parent_group="camera_group"/>
-    <end_effector name="camera_3_effector" parent_link="camera_3_link" group="camera_3_group" parent_group="camera_group"/> -->
+    <end_effector name="camera_2_effector" parent_link="camera_2_link" group="camera_2_group" parent_group="camera_group"/>
+    <end_effector name="camera_3_effector" parent_link="camera_3_link" group="camera_3_group" parent_group="camera_group"/>
     <!--PASSIVE JOINT: Purpose: this element is used to mark joints that are not actuated-->
     <passive_joint name="door_joint"/>
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->

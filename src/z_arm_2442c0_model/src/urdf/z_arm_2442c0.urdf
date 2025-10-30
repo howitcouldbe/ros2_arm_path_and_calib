@@ -27,10 +27,10 @@
       <geometry>
         <mesh filename="package://z_arm_2442c0_model/meshes/base_link.STL" />
       </geometry>
-      <material
+<material
         name="">
         <color
-          rgba="1 1 1 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -65,10 +65,10 @@
       <geometry>
         <mesh filename="package://z_arm_2442c0_model/meshes/door_link.STL" />
       </geometry>
-      <material
+<material
         name="">
         <color
-          rgba="1 1 1 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -117,10 +117,10 @@
       <geometry>
         <mesh filename="package://z_arm_2442c0_model/meshes/base_lift_link.STL" />
       </geometry>
-      <material
+<material
         name="">
         <color
-          rgba="1 1 1 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -168,10 +168,10 @@
       <geometry>
         <mesh filename="package://z_arm_2442c0_model/meshes/lift_link.STL" />
       </geometry>
-      <material
+<material
         name="">
         <color
-          rgba="1 1 1 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -220,10 +220,10 @@
       <geometry>
         <mesh filename="package://z_arm_2442c0_model/meshes/revolute_1_link.STL" />
       </geometry>
-      <material
+<material
         name="">
         <color
-          rgba="1 1 1 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -272,10 +272,10 @@
       <geometry>
         <mesh filename="package://z_arm_2442c0_model/meshes/revolute_2_link.STL" />
       </geometry>
-      <material
+<material
         name="">
         <color
-          rgba="1 1 1 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -324,10 +324,10 @@
       <geometry>
         <mesh filename="package://z_arm_2442c0_model/meshes/revolute_3_link.STL" />
       </geometry>
-      <material
+<material
         name="">
         <color
-          rgba="1 1 1 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -356,17 +356,17 @@
     name="camera_base_link">
     <inertial>
       <origin
-        xyz="0.0931049891166365 -0.000761768996695165 0.0118451156279652"
+        xyz="0.0645225305069741 4.19126539030756E-14 0.0100037609326707"
         rpy="0 0 0" />
       <mass
-        value="0.321807581331945" />
+        value="0.203205987623318" />
       <inertia
-        ixx="0.000540440264141487"
-        ixy="2.82010553501103E-06"
-        ixz="-5.8851237017866E-08"
-        iyy="0.00138003001837783"
-        iyz="1.26301570313523E-10"
-        izz="0.00190511555236014" />
+        ixx="0.000356342335905053"
+        ixy="3.57925534001859E-15"
+        ixz="-5.885123713497E-08"
+        iyy="0.00112927525440866"
+        iyz="1.2555122051253E-10"
+        izz="0.0014722379325005" />
     </inertial>
     <visual>
       <origin
@@ -378,7 +378,7 @@
       <material
         name="">
         <color
-          rgba="1 1 1 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -404,18 +404,47 @@
       xyz="0 0 0" />
   </joint>
 
-  <link name="camera_1_rot_link">
+  <link name="camera_revolute_link">
+    <inertial>
+      <origin
+        xyz="1.01771558122313E-05 -1.59114604170695E-06 -0.00500000000000023"
+        rpy="0 0 0" />
+      <mass
+        value="0.118601590695084" />
+      <inertia
+        ixx="0.000184097924869798"
+        ixy="2.82010553142919E-06"
+        ixz="-2.91692972568406E-21"
+        iyy="0.000250754763407668"
+        iyz="2.29773777365639E-20"
+        izz="0.000432877616283766" />
+    </inertial>
     <visual>
+     <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://z_arm_2442c0_model/meshes/camera_revolute_link.STL" />
+      </geometry>
+<material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <box size="0.001 0.001 0.001"/> <!-- 可视化一个小点，或直接省略 -->
+        <mesh filename="package://z_arm_2442c0_model/meshes/camera_revolute_link.STL" />
       </geometry>
-    </visual>
+    </collision>  
   </link>
-  <joint name="camera_1_rot_joint" type="continuous">
-    <origin xyz="0.14534 0 0.13089" rpy="0 0 0"/>
+  <joint name="camera_revolute_joint" type="continuous">
+    <origin
+      xyz="0.141018940058406 7.96433655524172E-05 0.0200000000000001"
+      rpy="0 0 0" />
     <parent link="camera_base_link"/>
-    <child link="camera_1_rot_link"/>
+    <child link="camera_revolute_link"/>
     <axis xyz="0 0 1"/>
   </joint>
 
@@ -462,7 +491,7 @@
     type="fixed">
     <origin xyz="0.0234 0.047416 -0.0145" rpy="0 0 0"/>
     <parent
-      link="camera_1_rot_link" />
+      link="camera_revolute_link" />
     <child
       link="camera_1_link" />
     <axis
@@ -511,7 +540,7 @@
     type="fixed">
     <origin xyz="-0.0216 0.047416 -0.0145" rpy="0 0 0"/>
     <parent
-      link="camera_1_rot_link" />
+      link="camera_revolute_link" />
     <child
       link="camera_2_link" />
     <axis
@@ -540,10 +569,10 @@
       <geometry>
         <mesh filename="package://z_arm_2442c0_model/meshes/camera_3_link.STL" />
       </geometry>
-      <material
+<material
         name="">
         <color
-          rgba="1 1 1 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -560,7 +589,7 @@
     type="fixed">
   <origin xyz="-0.00181 -0.025558 0.029" rpy="0 0 0"/>
     <parent
-      link="camera_1_rot_link" />
+      link="camera_revolute_link" />
     <child
       link="camera_3_link" />
     <axis
