@@ -411,22 +411,49 @@
       xyz="0 0 0" />
   </joint>
 
-  <link name="camera_1_rot_link">
+  <link name="camera_revolute_link">
+    <inertial>
+      <origin
+        xyz="1.01771558122313E-05 -1.59114604170695E-06 -0.00500000000000023"
+        rpy="0 0 0" />
+      <mass
+        value="0.118601590695084" />
+      <inertia
+        ixx="0.000184097924869798"
+        ixy="2.82010553142919E-06"
+        ixz="-2.91692972568406E-21"
+        iyy="0.000250754763407668"
+        iyz="2.29773777365639E-20"
+        izz="0.000432877616283766" />
+    </inertial>
     <visual>
+     <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/camera_revolute_link.STL" />
+      </geometry>
+<material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <box size="0.001 0.001 0.001"/> <!-- 可视化一个小点，或直接省略 -->
+        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/camera_revolute_link.STL" />
       </geometry>
-    </visual>
+    </collision>  
   </link>
-  <joint name="camera_1_rot_joint" type="continuous">
-    <origin xyz="0.14534 0 0.13089" rpy="0 0 0"/>
+  <joint name="camera_revolute_joint" type="continuous">
+    <origin
+      xyz="0.141018940058406 7.96433655524172E-05 0.0200000000000001"
+      rpy="0 0 0" />
     <parent link="camera_base_link"/>
-    <child link="camera_1_rot_link"/>
+    <child link="camera_revolute_link"/>
     <axis xyz="0 0 1"/>
   </joint>
-
-
 
   <link
     name="camera_1_link">
@@ -469,9 +496,9 @@
   <joint
     name="camera_1_joint"
     type="fixed">
-    <origin xyz="0.0234 0.047416 -0.0145" rpy="0 0 0"/>
+    <origin xyz="0.0234 0.047416 0.1" rpy="0 0 0"/>
     <parent
-      link="camera_1_rot_link" />
+      link="camera_revolute_link" />
     <child
       link="camera_1_link" />
     <axis
@@ -518,9 +545,9 @@
   <joint
     name="camera_2_joint"
     type="fixed">
-    <origin xyz="-0.0216 0.047416 -0.0145" rpy="0 0 0"/>
+    <origin xyz="-0.0216 0.047416 0.1" rpy="0 0 0"/>
     <parent
-      link="camera_1_rot_link" />
+      link="camera_revolute_link" />
     <child
       link="camera_2_link" />
     <axis
@@ -549,10 +576,10 @@
       <geometry>
         <mesh filename="file://$(find z_arm_2442c0_model)/meshes/camera_3_link.STL" />
       </geometry>
-      <material
+<material
         name="">
         <color
-          rgba="1 1 1 1" />
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
     </visual>
     <collision>
@@ -567,9 +594,9 @@
   <joint
     name="camera_3_joint"
     type="fixed">
-  <origin xyz="-0.00181 -0.025558 0.029" rpy="0 0 0"/>
+  <origin xyz="-0.00181 -0.025558 0.15" rpy="0 0 0"/>
     <parent
-      link="camera_1_rot_link" />
+      link="camera_revolute_link" />
     <child
       link="camera_3_link" />
     <axis
