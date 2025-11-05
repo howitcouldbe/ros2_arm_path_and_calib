@@ -10,7 +10,7 @@
     <!--CHAINS: When a chain is specified, all the links along the chain (including endpoints) are included in the group. Additionally, all the joints that are parents to included links are also included. This means that joints along the chain and the parent joint of the base link are included in the group-->
     <!--SUBGROUPS: Groups can also be formed by referencing to already defined group names-->
     <group name="camera_group">
-        <chain base_link="camera_base_link" tip_link="camera_1_rot_joint"/>
+        <chain base_link="base_link" tip_link="camera_base_link"/>
     </group>
     <group name="camera_1_group">
         <link name="lift_link"/>
@@ -19,13 +19,11 @@
         <link name="revolute_3_link"/>
         <link name="camera_base_link"/>
         <link name="camera_1_link"/>
-        <link name="camera_1_rot_link"/>
         <joint name="lift_joint"/>
         <joint name="revolute_1_joint"/>
         <joint name="revolute_2_joint"/>
         <joint name="revolute_3_joint"/>
         <joint name="camera_base_joint"/>
-        <joint name="camera_1_rot_joint"/>
         <joint name="camera_1_joint"/>
     </group>
     <group name="camera_2_group">
@@ -34,14 +32,12 @@
         <link name="revolute_2_link"/>
         <link name="revolute_3_link"/>
         <link name="camera_base_link"/>
-        <link name="camera_1_rot_link"/>
         <link name="camera_2_link"/>
         <joint name="lift_joint"/>
         <joint name="revolute_1_joint"/>
         <joint name="revolute_2_joint"/>
         <joint name="revolute_3_joint"/>
         <joint name="camera_base_joint"/>
-        <joint name="camera_1_rot_joint"/>
         <joint name="camera_2_joint"/>
     </group>
         <group name="camera_3_group">
@@ -50,14 +46,12 @@
         <link name="revolute_2_link"/>
         <link name="revolute_3_link"/>
         <link name="camera_base_link"/>
-        <link name="camera_1_rot_link"/>
         <link name="camera_3_link"/>
         <joint name="lift_joint"/>
         <joint name="revolute_1_joint"/>
         <joint name="revolute_2_joint"/>
         <joint name="revolute_3_joint"/>
         <joint name="camera_base_joint"/>
-        <joint name="camera_1_rot_joint"/>
         <joint name="camera_3_joint"/>
     </group>
     <!-- <group name="end_group">
@@ -70,55 +64,33 @@
         <joint name="revolute_2_joint" value="-0.9732"/>
         <joint name="revolute_3_joint" value="-1.0935"/>
         <joint name="lift_joint" value="0.0044"/>
+        <joint name="camera_base_joint" value="0.0"/>
         <joint name="revolute_1_joint" value="-0.4889"/>
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
-    <end_effector name="camera_1_effector" parent_link="camera_1_link" group="camera_1_group" parent_group="camera_group"/>
-    <end_effector name="camera_2_effector" parent_link="camera_2_link" group="camera_2_group" parent_group="camera_group"/>
-    <end_effector name="camera_3_effector" parent_link="camera_3_link" group="camera_3_group" parent_group="camera_group"/>
+    <end_effector name="camera_1_effector" parent_link="camera_base_link" group="camera_1_group" parent_group="camera_group"/>
+    <end_effector name="camera_2_effector" parent_link="camera_base_link" group="camera_2_group" parent_group="camera_group"/>
+    <end_effector name="camera_3_effector" parent_link="camera_base_link" group="camera_3_group" parent_group="camera_group"/>
     <!--PASSIVE JOINT: Purpose: this element is used to mark joints that are not actuated-->
     <passive_joint name="door_joint"/>
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
     <disable_collisions link1="base_link" link2="door_link" reason="Adjacent"/>
     <disable_collisions link1="base_link" link2="base_lift_link" reason="Adjacent"/>
     <disable_collisions link1="base_link" link2="lift_link" reason="Never"/>
-    <disable_collisions link1="base_link" link2="revolute_1_link" reason="Never"/>
-    <disable_collisions link1="base_link" link2="revolute_2_link" reason="Never"/>
-    <disable_collisions link1="base_link" link2="revolute_3_link" reason="Never"/>
-    <disable_collisions link1="camera_base_link" link2="door_link" reason="Never"/>
-    <disable_collisions link1="camera_base_link" link2="lift_link" reason="Never"/>
-    <disable_collisions link1="camera_base_link" link2="revolute_1_link" reason="Never"/>
-    <disable_collisions link1="camera_base_link" link2="revolute_2_link" reason="Never"/>
-    <disable_collisions link1="camera_base_link" link2="camera_2_link" reason="Never"/>
-    <disable_collisions link1="camera_base_link" link2="camera_1_link" reason="Never"/>
-    <disable_collisions link1="camera_base_link" link2="revolute_3_link" reason="Adjacent"/>
-    <disable_collisions link1="door_link" link2="base_lift_link" reason="Never"/>
-    <disable_collisions link1="door_link" link2="lift_link" reason="Never"/>
-    <disable_collisions link1="door_link" link2="revolute_1_link" reason="Never"/>
-    <disable_collisions link1="door_link" link2="revolute_2_link" reason="Never"/>
-    <disable_collisions link1="door_link" link2="revolute_3_link" reason="Never"/>
     <disable_collisions link1="base_lift_link" link2="lift_link" reason="Adjacent"/>
     <disable_collisions link1="base_lift_link" link2="revolute_1_link" reason="Never"/>
+    <disable_collisions link1="base_lift_link" link2="revolute_2_link" reason="Never"/>
+    <disable_collisions link1="base_lift_link" link2="revolute_3_link" reason="Never"/>
+    <disable_collisions link1="base_lift_link" link2="camera_base_link" reason="Never"/>
+    <disable_collisions link1="base_lift_link" link2="camera_1_link" reason="Never"/>
+    <disable_collisions link1="base_lift_link" link2="camera_2_link" reason="Never"/>
+    <disable_collisions link1="base_lift_link" link2="camera_3_link" reason="Never"/>
     <disable_collisions link1="lift_link" link2="revolute_1_link" reason="Adjacent"/>
-    <disable_collisions link1="lift_link" link2="revolute_2_link" reason="Never"/>
-    <disable_collisions link1="lift_link" link2="revolute_3_link" reason="Never"/>
     <disable_collisions link1="revolute_1_link" link2="revolute_2_link" reason="Adjacent"/>
-    <disable_collisions link1="revolute_1_link" link2="revolute_3_link" reason="Never"/>
     <disable_collisions link1="revolute_2_link" link2="revolute_3_link" reason="Adjacent"/>
-    <disable_collisions link1="camera_1_link" link2="door_link" reason="Never"/>
-    <disable_collisions link1="camera_1_link" link2="lift_link" reason="Never"/>
-    <disable_collisions link1="camera_1_link" link2="revolute_1_link" reason="Never"/>
-    <disable_collisions link1="camera_1_link" link2="revolute_2_link" reason="Never"/>
-    <disable_collisions link1="camera_1_link" link2="revolute_3_link" reason="Adjacent"/>
-    <disable_collisions link1="camera_2_link" link2="door_link" reason="Never"/>
-    <disable_collisions link1="camera_2_link" link2="lift_link" reason="Never"/>
-    <disable_collisions link1="camera_2_link" link2="revolute_1_link" reason="Never"/>
-    <disable_collisions link1="camera_2_link" link2="revolute_2_link" reason="Never"/>
-    <disable_collisions link1="camera_2_link" link2="revolute_3_link" reason="Adjacent"/>
+    <disable_collisions link1="revolute_2_link" link2="camera_base_link" reason="Never"/>
+    <disable_collisions link1="revolute_3_link" link2="camera_base_link" reason="Adjacent"/>
+    <disable_collisions link1="camera_base_link" link2="camera_1_link" reason="Adjacent"/>  
+    <disable_collisions link1="camera_base_link" link2="camera_2_link" reason="Adjacent"/>
     <disable_collisions link1="camera_base_link" link2="camera_3_link" reason="Adjacent"/>
-    <disable_collisions link1="camera_1_rot_link" link2="revolute_3_link" reason="Adjacent"/>
-    <disable_collisions link1="camera_1_rot_link" link2="camera_base_link" reason="Adjacent"/>
-    <disable_collisions link1="camera_1_rot_link" link2="camera_1_link" reason="Adjacent"/>
-    <disable_collisions link1="camera_1_rot_link" link2="camera_2_link" reason="Adjacent"/>
-    <disable_collisions link1="camera_1_rot_link" link2="camera_3_link" reason="Adjacent"/>
 </robot>

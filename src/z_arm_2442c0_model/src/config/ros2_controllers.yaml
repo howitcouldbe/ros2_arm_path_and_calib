@@ -20,12 +20,13 @@ camera_controller:
       - revolute_1_joint
       - revolute_2_joint
       - revolute_3_joint
-      - camera_1_rot_joint
+      - camera_base_joint
     command_interfaces:
       - position
     state_interfaces:
       - position
       - velocity
+    state_topic: "controller_state"
 
 # camera_base_controller:
 #   ros__parameters:

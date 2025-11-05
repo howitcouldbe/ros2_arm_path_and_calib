@@ -10,26 +10,26 @@ default_acceleration_scaling_factor: 0.1
 joint_limits:
   lift_joint:
     has_velocity_limits: true
-    max_velocity: 1.0
+    max_velocity: 2.0
     has_acceleration_limits: true
     max_acceleration: 2.0
   revolute_1_joint:
     has_velocity_limits: true
-    max_velocity: 1.0
+    max_velocity: 2.5
     has_acceleration_limits: true
-    max_acceleration: 2.0
+    max_acceleration: 2.5
   revolute_2_joint:
     has_velocity_limits: true
-    max_velocity: 0.10000000000000001
+    max_velocity: 2.5
     has_acceleration_limits: true
-    max_acceleration: 2.0
+    max_acceleration: 2.5
   revolute_3_joint:
     has_velocity_limits: true
-    max_velocity: 1.0
+    max_velocity: 2.5
     has_acceleration_limits: true
-    max_acceleration: 2.0
-  camera_1_rot_joint:
+    max_acceleration: 2.5
+  camera_base_joint:
     has_velocity_limits: true
-    max_velocity: 1.0
+    max_velocity: 2.5
     has_acceleration_limits: true
-    max_acceleration: 2.0
+    max_acceleration: 2.5

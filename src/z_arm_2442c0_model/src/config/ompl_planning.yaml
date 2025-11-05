@@ -1,0 +1,69 @@
+# ompl_planning.yaml
+planner_configs:
+  SBL:
+    type: geometric::SBL
+  EST:
+    type: geometric::EST
+  LBKPIECE:
+    type: geometric::LBKPIECE
+  BKPIECE:
+    type: geometric::BKPIECE
+  KPIECE:
+    type: geometric::KPIECE
+  RRT:
+    type: geometric::RRT
+  RRTConnect:
+    type: geometric::RRTConnect
+  RRTstar:
+    type: geometric::RRTstar  # 确保这一行存在
+  TRRT:
+    type: geometric::TRRT
+  PRM:
+    type: geometric::PRM
+  PRMstar:
+    type: geometric::PRMstar
+  FMT:
+    type: geometric::FMT
+  BFMT:
+    type: geometric::BFMT
+  PDST:
+    type: geometric::PDST
+  STRIDE:
+    type: geometric::STRIDE
+  BiTRRT:
+    type: geometric::BiTRRT
+  LBTRRT:
+    type: geometric::LBTRRT
+  BiEST:
+    type: geometric::BiEST
+  ProjEST:
+    type: geometric::ProjEST
+  LazyPRM:
+    type: geometric::LazyPRM
+  LazyPRMstar:
+    type: geometric::LazyPRMstar
+  SPARS:
+    type: geometric::SPARS
+  SPARStwo:
+    type: geometric::SPARStwo
+
+camera_1_group:  # 确保为您的规划组配置了RRTstar
+  default_planner_config: RRTstar
+  planner_configs:
+    - RRTstar
+    - RRTConnect
+    - RRT
+    - PRM
+    - PRMstar
+    - BFMT
+    - FMT
+    - PDST
+    - STRIDE
+    - BiTRRT
+    - LBTRRT
+    - BiEST
+    - ProjEST
+    - LazyPRM
+    - LazyPRMstar
+    - SPARS
+    - SPARStwo

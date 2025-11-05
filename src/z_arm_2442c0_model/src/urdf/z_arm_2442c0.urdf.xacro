@@ -363,24 +363,25 @@
     name="camera_base_link">
     <inertial>
       <origin
-        xyz="0.0931049891166365 -0.000761768996695165 0.0118451156279652"
+        xyz="0.0922913938829012 0.0114660884169011 0.00693916748687329"
         rpy="0 0 0" />
       <mass
-        value="0.321807581331945" />
+        value="0.0887364768113745" />
       <inertia
-        ixx="0.000540440264141487"
-        ixy="2.82010553501103E-06"
-        ixz="-5.8851237017866E-08"
-        iyy="0.00138003001837783"
-        iyz="1.26301570313523E-10"
-        izz="0.00190511555236014" />
+        ixx="0.000130797104660911"
+        ixy="-5.49600615756757E-05"
+        ixz="-1.85094688819852E-11"
+        iyy="0.00044572419290674"
+        iyz="2.36802675635875E-11"
+        izz="0.00057504774975987" />
     </inertial>
     <visual>
       <origin
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/camera_base_link.STL" />
+        <mesh
+          filename="file://$(find z_arm_2442c0_model)/meshes/camera_base_link.STL" />
       </geometry>
       <material
         name="">
@@ -393,90 +394,52 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/camera_base_link.STL" />
+        <mesh
+          filename="file://$(find z_arm_2442c0_model)/meshes/camera_base_link.STL" />
       </geometry>
     </collision>
   </link>
   <joint
     name="camera_base_joint"
-    type="fixed">
+    type="revolute">
     <origin
-      xyz="0 0 -0.015655"
+      xyz="0 0 -0.008"
       rpy="0 0 0" />
     <parent
       link="revolute_3_link" />
     <child
       link="camera_base_link" />
     <axis
-      xyz="0 0 0" />
+      xyz="0 0 -1" />
+    <limit
+      lower="-3.0"
+      upper="0.95"
+      effort="1"
+      velocity="1" />
   </joint>
-
-  <link name="camera_revolute_link">
-    <inertial>
-      <origin
-        xyz="1.01771558122313E-05 -1.59114604170695E-06 -0.00500000000000023"
-        rpy="0 0 0" />
-      <mass
-        value="0.118601590695084" />
-      <inertia
-        ixx="0.000184097924869798"
-        ixy="2.82010553142919E-06"
-        ixz="-2.91692972568406E-21"
-        iyy="0.000250754763407668"
-        iyz="2.29773777365639E-20"
-        izz="0.000432877616283766" />
-    </inertial>
-    <visual>
-     <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
-      <geometry>
-        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/camera_revolute_link.STL" />
-      </geometry>
-<material
-        name="">
-        <color
-          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
-      </material>
-    </visual>
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry>
-        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/camera_revolute_link.STL" />
-      </geometry>
-    </collision>  
-  </link>
-  <joint name="camera_revolute_joint" type="continuous">
-    <origin
-      xyz="0.141018940058406 7.96433655524172E-05 0.0200000000000001"
-      rpy="0 0 0" />
-    <parent link="camera_base_link"/>
-    <child link="camera_revolute_link"/>
-    <axis xyz="0 0 1"/>
-  </joint>
-
   <link
     name="camera_1_link">
     <inertial>
       <origin
-        xyz="-0.00203650221406804 -0.000549602386836587 -0.0254478625269233"
+        xyz="-0.000808151669486779 -0.000139609392250321 0.0824543071056295"
         rpy="0 0 0" />
       <mass
-        value="0.0230681246047575" />
+        value="0.0230681085022875" />
       <inertia
-        ixx="2.80041163711897E-06"
-        ixy="-2.07454955997632E-09"
-        ixz="9.94356803236955E-10"
-        iyy="2.54526957034486E-06"
-        iyz="-6.5620549616381E-10"
-        izz="2.73325575599856E-06" />
+        ixx="2.80040994804869E-06"
+        ixy="-2.07534023385604E-09"
+        ixz="9.93985293817649E-10"
+        iyy="2.54526858239223E-06"
+        iyz="-6.55537535190713E-10"
+        izz="2.7332553709264E-06" />
     </inertial>
     <visual>
       <origin
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/camera_1_link.STL" />
+        <mesh
+          filename="file://$(find z_arm_2442c0_model)/meshes/camera_1_link.STL" />
       </geometry>
       <material
         name="">
@@ -489,16 +452,19 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/camera_1_link.STL" />
+        <mesh
+          filename="file://$(find z_arm_2442c0_model)/meshes/camera_1_link.STL" />
       </geometry>
     </collision>
   </link>
   <joint
     name="camera_1_joint"
     type="fixed">
-    <origin xyz="0.0234 0.047416 0.1" rpy="0 0 0"/>
+    <origin
+      xyz="0.165237204034808 0.0562502802907883 -0.000935566922000475"
+      rpy="0 0 0" />
     <parent
-      link="camera_revolute_link" />
+      link="camera_base_link" />
     <child
       link="camera_1_link" />
     <axis
@@ -508,24 +474,25 @@
     name="camera_2_link">
     <inertial>
       <origin
-        xyz="-0.00203650220050811 -0.000549602349943078 -0.0254478626652848"
+        xyz="-0.000808145804082942 -0.000139613920616469 0.0824542928302506"
         rpy="0 0 0" />
       <mass
-        value="0.0230681244154274" />
+        value="0.0230680945898005" />
       <inertia
-        ixx="2.80041162977159E-06"
-        ixy="-2.07455614253564E-09"
-        ixz="9.94356728132775E-10"
-        iyy="2.54526956438894E-06"
-        iyz="-6.56206058171943E-10"
-        izz="2.73325574263675E-06" />
+        ixx="2.80040889457412E-06"
+        ixy="-2.0755480242859E-09"
+        ixz="9.93767199037462E-10"
+        iyy="2.54526787231235E-06"
+        iyz="-6.55018537468534E-10"
+        izz="2.73325477459555E-06" />
     </inertial>
     <visual>
       <origin
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/camera_2_link.STL" />
+        <mesh
+          filename="file://$(find z_arm_2442c0_model)/meshes/camera_2_link.STL" />
       </geometry>
       <material
         name="">
@@ -538,16 +505,19 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/camera_2_link.STL" />
+        <mesh
+          filename="file://$(find z_arm_2442c0_model)/meshes/camera_2_link.STL" />
       </geometry>
     </collision>
   </link>
   <joint
     name="camera_2_joint"
     type="fixed">
-    <origin xyz="-0.0216 0.047416 0.1" rpy="0 0 0"/>
+    <origin
+      xyz="0.120237204034816 0.0562502802907844 -0.000935566921999809"
+      rpy="0 0 0" />
     <parent
-      link="camera_revolute_link" />
+      link="camera_base_link" />
     <child
       link="camera_2_link" />
     <axis
@@ -557,29 +527,30 @@
     name="camera_3_link">
     <inertial>
       <origin
-        xyz="-4.00055268708552E-05 2.8830575549553E-05 -0.0695444399884141"
+        xyz="-0.0495567895052987 7.88431819831459E-15 0.0425452233910272"
         rpy="0 0 0" />
       <mass
-        value="1.45710864588612" />
+        value="0.685576189865808" />
       <inertia
-        ixx="0.00346080248209257"
-        ixy="-1.44272618610586E-10"
-        ixz="-8.72777874649103E-11"
-        iyy="0.00346080682501201"
-        iyz="1.8464007560091E-10"
-        izz="0.0023545593226906" />
+        ixx="0.000311238374187138"
+        ixy="-5.09696125132606E-17"
+        ixz="-7.26764915695594E-07"
+        iyy="0.0013178305237229"
+        iyz="4.00734546737278E-18"
+        izz="0.00142060285149843" />
     </inertial>
     <visual>
       <origin
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/camera_3_link.STL" />
+        <mesh
+          filename="file://$(find z_arm_2442c0_model)/meshes/camera_3_link.STL" />
       </geometry>
-<material
+      <material
         name="">
         <color
-          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+          rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -587,16 +558,19 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file://$(find z_arm_2442c0_model)/meshes/camera_3_link.STL" />
+        <mesh
+          filename="file://$(find z_arm_2442c0_model)/meshes/camera_3_link.STL" />
       </geometry>
     </collision>
   </link>
   <joint
     name="camera_3_joint"
     type="fixed">
-  <origin xyz="-0.00181 -0.025558 0.15" rpy="0 0 0"/>
+    <origin
+      xyz="0.192281181548174 -0.00103564174221389 -0.00957826012299989"
+      rpy="0 0 0" />
     <parent
-      link="camera_revolute_link" />
+      link="camera_base_link" />
     <child
       link="camera_3_link" />
     <axis
@@ -633,10 +607,6 @@
         <gravity>false</gravity>
     </gazebo>
     <gazebo reference="camera_base_link">
-        <self_collide>false</self_collide>
-        <gravity>false</gravity>
-    </gazebo>
-    <gazebo reference="camera_1_rot_link">
         <self_collide>false</self_collide>
         <gravity>false</gravity>
     </gazebo>
@@ -699,7 +669,14 @@
             </state_interface>
             <state_interface name="velocity"/>
         </joint>
-        <joint name="camera_1_joint">
+        <joint name="camera_base_joint">
+            <command_interface name="position"/>
+            <state_interface name="position">
+                <param name="initial_value">-0.5</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+        </joint>
+        <!-- <joint name="camera_1_joint">
             <command_interface name="position"/>
             <state_interface name="position">
                 <param name="initial_value">0</param>
@@ -719,14 +696,7 @@
                 <param name="initial_value">0</param>
             </state_interface>
             <state_interface name="velocity"/>
-        </joint>
-        <joint name="camera_1_rot_joint">
-            <command_interface name="position"/>
-            <state_interface name="position">
-                <param name="initial_value">0</param>
-            </state_interface>
-            <state_interface name="velocity"/>
-        </joint>
+        </joint> -->
     </ros2_control>
 
        <!-- 加载ros2_control插件 -->

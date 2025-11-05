@@ -1,1 +1,1 @@
-controller_joint_names: ['', 'door_joint', 'lift_joint', 'revolute_1_joint', 'revolute_2_joint', 'revolute_3_joint', 'camera_1_rot_joint']
+controller_joint_names: ['', 'door_joint', 'lift_joint', 'revolute_1_joint', 'revolute_2_joint', 'revolute_3_joint', 'camera_base_joint']
