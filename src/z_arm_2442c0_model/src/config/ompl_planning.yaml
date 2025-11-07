@@ -1,69 +1,18 @@
-# ompl_planning.yaml
+planning_plugin: ompl_interface/OMPLPlanner
+request_adapters: >-
+  default_planner_request_adapters/AddTimeOptimalParameterization
+  default_planner_request_adapters/ResolveConstraintFrames
+  default_planner_request_adapters/FixWorkspaceBounds
+  default_planner_request_adapters/FixStartStateBounds
+  default_planner_request_adapters/FixStartStateCollision
+  default_planner_request_adapters/FixStartStatePathConstraints
+start_state_max_bounds_error: 0.1
+simplify_solutions: false  # 禁用简化解决方案
+
 planner_configs:
-  SBL:
-    type: geometric::SBL
-  EST:
-    type: geometric::EST
-  LBKPIECE:
-    type: geometric::LBKPIECE
-  BKPIECE:
-    type: geometric::BKPIECE
-  KPIECE:
-    type: geometric::KPIECE
-  RRT:
-    type: geometric::RRT
+  RRTstar:
+    type: geometric::RRTstar
   RRTConnect:
     type: geometric::RRTConnect
-  RRTstar:
-    type: geometric::RRTstar  # 确保这一行存在
-  TRRT:
-    type: geometric::TRRT
   PRM:
     type: geometric::PRM
-  PRMstar:
-    type: geometric::PRMstar
-  FMT:
-    type: geometric::FMT
-  BFMT:
-    type: geometric::BFMT
-  PDST:
-    type: geometric::PDST
-  STRIDE:
-    type: geometric::STRIDE
-  BiTRRT:
-    type: geometric::BiTRRT
-  LBTRRT:
-    type: geometric::LBTRRT
-  BiEST:
-    type: geometric::BiEST
-  ProjEST:
-    type: geometric::ProjEST
-  LazyPRM:
-    type: geometric::LazyPRM
-  LazyPRMstar:
-    type: geometric::LazyPRMstar
-  SPARS:
-    type: geometric::SPARS
-  SPARStwo:
-    type: geometric::SPARStwo
-
-camera_1_group:  # 确保为您的规划组配置了RRTstar
-  default_planner_config: RRTstar
-  planner_configs:
-    - RRTstar
-    - RRTConnect
-    - RRT
-    - PRM
-    - PRMstar
-    - BFMT
-    - FMT
-    - PDST
-    - STRIDE
-    - BiTRRT
-    - LBTRRT
-    - BiEST
-    - ProjEST
-    - LazyPRM
-    - LazyPRMstar
-    - SPARS
-    - SPARStwo

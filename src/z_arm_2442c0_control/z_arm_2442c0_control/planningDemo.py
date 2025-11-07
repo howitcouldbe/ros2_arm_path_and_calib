@@ -108,7 +108,6 @@ class PilzSequenceClient(Node):
         request.start_state = self.state_provider.get_current_robot_state()
         request.start_state.is_diff = False
         request.goal_constraints[0] = Constraints()  # 清空旧约束
-        print(request.start_state.joint_state.name)
         request = self.constraint_builder.add_joint_constraints_to_prevent_large_rotations(request, max_rotation=math.pi)
 
         time.sleep(10)
@@ -173,7 +172,7 @@ class PilzSequenceClient(Node):
         request.start_state = self.state_provider.get_current_robot_state()
         
         goal_msg = self.motion_planner.create_goal(
-            request, 'RRTstar', 'ompl', 1.0, 1.0, True, False, False)
+            request, 'RRTstar', 'ompl', 1.0, 1.0, True, False, True)
 
         result = self.motion_planner.execute_plan(goal_msg)
         
