@@ -1,0 +1,558 @@
+2025-11-18 17:37:28,619 - HandEyeCalibrationNode - ERROR - Error loading calibration from YAML: name 'yaml' is not defined
+2025-11-18 17:37:29,674 - HandEyeCalibrationNode - INFO - No existing calibration found, will perform new calibration
+2025-11-18 17:37:34,299 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-18 17:37:35,936 - HandEyeCalibrationNode - INFO - Loaded 10 robot transforms and 10 camera transforms from calibration_data.json
+2025-11-18 17:37:35,936 - HandEyeCalibrationNode - INFO - Performing hand-eye calibration...
+2025-11-18 17:39:48,876 - HandEyeCalibrationNode - ERROR - Error loading calibration from YAML: name 'yaml' is not defined
+2025-11-18 17:39:48,876 - HandEyeCalibrationNode - INFO - No existing calibration found, will perform new calibration
+2025-11-18 17:39:48,876 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-18 17:39:53,220 - HandEyeCalibrationNode - INFO - Loaded 10 robot transforms and 10 camera transforms from calibration_data.json
+2025-11-18 17:39:53,803 - HandEyeCalibrationNode - INFO - Performing hand-eye calibration...
+2025-11-18 17:39:56,012 - HandEyeCalibrationNode - ERROR - 旋转矩阵计算失败，使用单位矩阵
+2025-11-18 17:41:10,127 - HandEyeCalibrationNode - ERROR - Error loading calibration from YAML: name 'yaml' is not defined
+2025-11-18 17:41:10,127 - HandEyeCalibrationNode - INFO - No existing calibration found, will perform new calibration
+2025-11-18 17:41:10,127 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-18 17:41:13,001 - HandEyeCalibrationNode - INFO - Loaded 10 robot transforms and 10 camera transforms from calibration_data.json
+2025-11-18 17:41:13,611 - HandEyeCalibrationNode - INFO - Performing hand-eye calibration...
+2025-11-18 17:52:11,394 - HandEyeCalibrationNode - ERROR - Error loading calibration from YAML: name 'yaml' is not defined
+2025-11-18 17:52:11,394 - HandEyeCalibrationNode - INFO - No existing calibration found, will perform new calibration
+2025-11-18 17:52:11,394 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-18 17:52:11,454 - HandEyeCalibrationNode - ERROR - Error loading calibration data from calibration_data.json: 'HandEyeCalibrationNode' object has no attribute 'get_clock'
+2025-11-18 17:52:11,454 - HandEyeCalibrationNode - INFO - Performing hand-eye calibration...
+2025-11-18 17:52:51,760 - HandEyeCalibrationNode - ERROR - Error loading calibration from YAML: name 'yaml' is not defined
+2025-11-18 17:52:51,760 - HandEyeCalibrationNode - INFO - No existing calibration found, will perform new calibration
+2025-11-18 17:52:51,760 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-18 17:52:55,933 - HandEyeCalibrationNode - ERROR - Error loading calibration data from calibration_data.json: 'HandEyeCalibrationNode' object has no attribute 'get_clock'
+2025-11-18 17:52:56,706 - HandEyeCalibrationNode - INFO - Performing hand-eye calibration...
+2025-11-18 17:53:17,926 - HandEyeCalibrationNode - ERROR - Error loading calibration from YAML: name 'yaml' is not defined
+2025-11-18 17:53:17,926 - HandEyeCalibrationNode - INFO - No existing calibration found, will perform new calibration
+2025-11-18 17:53:17,926 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-18 17:53:17,984 - HandEyeCalibrationNode - ERROR - Error loading calibration data from calibration_data.json: 'HandEyeCalibrationNode' object has no attribute 'get_clock'
+2025-11-18 17:53:17,984 - HandEyeCalibrationNode - INFO - Performing hand-eye calibration...
+2025-11-18 17:53:36,990 - HandEyeCalibrationNode - ERROR - Error loading calibration from YAML: name 'yaml' is not defined
+2025-11-18 17:53:36,990 - HandEyeCalibrationNode - INFO - No existing calibration found, will perform new calibration
+2025-11-18 17:53:36,990 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-18 17:53:37,048 - HandEyeCalibrationNode - ERROR - Error loading calibration data from calibration_data.json: 'HandEyeCalibrationNode' object has no attribute 'get_clock'
+2025-11-18 17:53:37,048 - HandEyeCalibrationNode - INFO - Performing hand-eye calibration...
+2025-11-18 17:53:58,626 - HandEyeCalibrationNode - ERROR - Error loading calibration from YAML: name 'yaml' is not defined
+2025-11-18 17:53:58,626 - HandEyeCalibrationNode - INFO - No existing calibration found, will perform new calibration
+2025-11-18 17:53:58,627 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-18 17:54:27,908 - HandEyeCalibrationNode - ERROR - Error loading calibration data from calibration_data.json: 'HandEyeCalibrationNode' object has no attribute 'get_clock'
+2025-11-18 17:55:03,342 - HandEyeCalibrationNode - ERROR - Error loading calibration from YAML: name 'yaml' is not defined
+2025-11-18 17:55:03,342 - HandEyeCalibrationNode - INFO - No existing calibration found, will perform new calibration
+2025-11-18 17:55:03,342 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-18 17:58:03,776 - HandEyeCalibrationNode - ERROR - Error loading calibration from YAML: name 'yaml' is not defined
+2025-11-18 17:58:03,776 - HandEyeCalibrationNode - INFO - No existing calibration found, will perform new calibration
+2025-11-18 17:58:03,776 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-18 17:58:12,252 - HandEyeCalibrationNode - ERROR - Error loading calibration data from calibration_data.json: The 'stamp' field must be a sub message of type 'Time'
+2025-11-18 18:02:12,249 - HandEyeCalibrationNode - ERROR - Error loading calibration from YAML: name 'yaml' is not defined
+2025-11-18 18:02:12,249 - HandEyeCalibrationNode - INFO - No existing calibration found, will perform new calibration
+2025-11-18 18:02:12,249 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-18 18:02:18,347 - HandEyeCalibrationNode - ERROR - Error loading calibration data from calibration_data.json: The 'stamp' field must be a sub message of type 'Time'
+2025-11-18 18:03:15,649 - HandEyeCalibrationNode - ERROR - Error loading calibration from YAML: name 'yaml' is not defined
+2025-11-18 18:03:15,650 - HandEyeCalibrationNode - INFO - No existing calibration found, will perform new calibration
+2025-11-18 18:03:15,650 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-18 18:03:51,959 - HandEyeCalibrationNode - INFO - Loaded 10 robot transforms and 10 camera transforms from calibration_data.json
+2025-11-18 18:04:14,816 - HandEyeCalibrationNode - INFO - Performing hand-eye calibration...
+2025-11-18 18:05:44,356 - HandEyeCalibrationNode - ERROR - Error loading calibration from YAML: name 'yaml' is not defined
+2025-11-18 18:05:44,356 - HandEyeCalibrationNode - INFO - No existing calibration found, will perform new calibration
+2025-11-18 18:05:44,356 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-18 18:05:44,381 - HandEyeCalibrationNode - INFO - Loaded 10 robot transforms and 10 camera transforms from calibration_data.json
+2025-11-18 18:05:46,882 - HandEyeCalibrationNode - INFO - Performing hand-eye calibration...
+2025-11-18 18:05:53,992 - HandEyeCalibrationNode - INFO - 
+        Hand-Eye Calibration Result:
+        Translation: [-0.153685, 0.223777, 0.000000] meters 
+        Rotation Matrix:
+        [[ 1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00 -1.0000000e+00 -1.2246468e-16]
+ [ 0.0000000e+00  1.2246468e-16 -1.0000000e+00]] 
+        Euler Angles (XYZ): [3.141593, 0.000000, 0.000000] radians
+        
+2025-11-18 18:05:53,993 - HandEyeCalibrationNode - INFO - Calibration completed!
+2025-11-18 18:05:53,993 - HandEyeCalibrationNode - INFO - Validating calibration results...
+2025-11-18 18:05:53,998 - HandEyeCalibrationNode - INFO - Validation Results:
+2025-11-18 18:05:53,998 - HandEyeCalibrationNode - INFO - Mean error: nan
+2025-11-18 18:05:53,998 - HandEyeCalibrationNode - INFO - Std error: nan
+2025-11-18 18:07:04,456 - HandEyeCalibrationNode - ERROR - Error loading calibration from YAML: name 'yaml' is not defined
+2025-11-18 18:07:04,456 - HandEyeCalibrationNode - INFO - No existing calibration found, will perform new calibration
+2025-11-18 18:07:04,456 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-18 18:07:04,481 - HandEyeCalibrationNode - INFO - Loaded 10 robot transforms and 10 camera transforms from calibration_data.json
+2025-11-18 18:07:07,789 - HandEyeCalibrationNode - INFO - Performing hand-eye calibration...
+2025-11-18 18:07:07,791 - HandEyeCalibrationNode - INFO - 
+        Hand-Eye Calibration Result:
+        Translation: [-0.153685, 0.223777, 0.000000] meters 
+        Rotation Matrix:
+        [[ 1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00 -1.0000000e+00 -1.2246468e-16]
+ [ 0.0000000e+00  1.2246468e-16 -1.0000000e+00]] 
+        Euler Angles (XYZ): [3.141593, 0.000000, 0.000000] radians
+        
+2025-11-18 18:07:07,792 - HandEyeCalibrationNode - INFO - Calibration completed!
+2025-11-18 18:07:07,792 - HandEyeCalibrationNode - INFO - Validating calibration results...
+2025-11-18 18:07:07,793 - HandEyeCalibrationNode - INFO - Validation Results:
+2025-11-18 18:07:07,793 - HandEyeCalibrationNode - INFO - Mean error: nan
+2025-11-18 18:07:07,793 - HandEyeCalibrationNode - INFO - Std error: nan
+2025-11-18 18:07:07,793 - HandEyeCalibrationNode - ERROR - Calibration validation: FAILED - High error
+2025-11-18 18:07:07,793 - HandEyeCalibrationNode - ERROR - Error saving calibration result to YAML: 'HandEyeCalibrationNode' object has no attribute 'get_clock'
+2025-11-18 18:07:46,979 - HandEyeCalibrationNode - ERROR - Error loading calibration from YAML: name 'yaml' is not defined
+2025-11-18 18:07:46,980 - HandEyeCalibrationNode - INFO - No existing calibration found, will perform new calibration
+2025-11-18 18:07:46,980 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-18 18:07:47,005 - HandEyeCalibrationNode - INFO - Loaded 10 robot transforms and 10 camera transforms from calibration_data.json
+2025-11-18 18:07:47,005 - HandEyeCalibrationNode - INFO - Performing hand-eye calibration...
+2025-11-18 18:07:49,128 - HandEyeCalibrationNode - INFO - 
+        Hand-Eye Calibration Result:
+        Translation: [-0.153685, 0.223777, 0.000000] meters 
+        Rotation Matrix:
+        [[ 1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00 -1.0000000e+00 -1.2246468e-16]
+ [ 0.0000000e+00  1.2246468e-16 -1.0000000e+00]] 
+        Euler Angles (XYZ): [3.141593, 0.000000, 0.000000] radians
+        
+2025-11-18 18:07:49,128 - HandEyeCalibrationNode - INFO - Calibration completed!
+2025-11-18 18:07:49,128 - HandEyeCalibrationNode - INFO - Validating calibration results...
+2025-11-18 18:07:49,129 - HandEyeCalibrationNode - INFO - Validation Results:
+2025-11-18 18:07:49,129 - HandEyeCalibrationNode - INFO - Mean error: nan
+2025-11-18 18:07:49,129 - HandEyeCalibrationNode - INFO - Std error: nan
+2025-11-18 18:07:49,129 - HandEyeCalibrationNode - ERROR - Calibration validation: FAILED - High error
+2025-11-18 18:07:49,130 - HandEyeCalibrationNode - ERROR - Error saving calibration result to YAML: 'HandEyeCalibrationNode' object has no attribute 'get_clock'
+2025-11-18 18:08:35,095 - HandEyeCalibrationNode - ERROR - Error loading calibration from YAML: name 'yaml' is not defined
+2025-11-18 18:08:35,095 - HandEyeCalibrationNode - INFO - No existing calibration found, will perform new calibration
+2025-11-18 18:08:35,095 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-18 18:08:35,121 - HandEyeCalibrationNode - INFO - Loaded 10 robot transforms and 10 camera transforms from calibration_data.json
+2025-11-18 18:08:35,121 - HandEyeCalibrationNode - INFO - Performing hand-eye calibration...
+2025-11-18 18:08:38,209 - HandEyeCalibrationNode - INFO - 
+        Hand-Eye Calibration Result:
+        Translation: [-0.153685, 0.223777, 0.000000] meters 
+        Rotation Matrix:
+        [[ 1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00 -1.0000000e+00 -1.2246468e-16]
+ [ 0.0000000e+00  1.2246468e-16 -1.0000000e+00]] 
+        Euler Angles (XYZ): [3.141593, 0.000000, 0.000000] radians
+        
+2025-11-18 18:08:38,209 - HandEyeCalibrationNode - INFO - Calibration completed!
+2025-11-18 18:08:38,210 - HandEyeCalibrationNode - INFO - Validating calibration results...
+2025-11-18 18:08:38,210 - HandEyeCalibrationNode - INFO - Validation Results:
+2025-11-18 18:08:38,211 - HandEyeCalibrationNode - INFO - Mean error: nan
+2025-11-18 18:08:38,211 - HandEyeCalibrationNode - INFO - Std error: nan
+2025-11-18 18:08:38,211 - HandEyeCalibrationNode - ERROR - Calibration validation: FAILED - High error
+2025-11-18 18:08:38,211 - HandEyeCalibrationNode - ERROR - Error saving calibration result to YAML: name 'yaml' is not defined
+2025-11-18 18:08:48,270 - HandEyeCalibrationNode - ERROR - Error loading calibration from YAML: name 'yaml' is not defined
+2025-11-18 18:08:48,270 - HandEyeCalibrationNode - INFO - No existing calibration found, will perform new calibration
+2025-11-18 18:08:48,270 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-18 18:08:48,298 - HandEyeCalibrationNode - INFO - Loaded 10 robot transforms and 10 camera transforms from calibration_data.json
+2025-11-18 18:08:48,298 - HandEyeCalibrationNode - INFO - Performing hand-eye calibration...
+2025-11-18 18:09:21,121 - HandEyeCalibrationNode - INFO - 
+        Hand-Eye Calibration Result:
+        Translation: [-0.153685, 0.223777, 0.000000] meters 
+        Rotation Matrix:
+        [[ 1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00 -1.0000000e+00 -1.2246468e-16]
+ [ 0.0000000e+00  1.2246468e-16 -1.0000000e+00]] 
+        Euler Angles (XYZ): [3.141593, 0.000000, 0.000000] radians
+        
+2025-11-18 18:09:21,121 - HandEyeCalibrationNode - INFO - Calibration completed!
+2025-11-18 18:09:21,121 - HandEyeCalibrationNode - INFO - Validating calibration results...
+2025-11-18 18:09:21,123 - HandEyeCalibrationNode - INFO - Validation Results:
+2025-11-18 18:09:21,123 - HandEyeCalibrationNode - INFO - Mean error: nan
+2025-11-18 18:09:21,123 - HandEyeCalibrationNode - INFO - Std error: nan
+2025-11-18 18:09:21,123 - HandEyeCalibrationNode - ERROR - Calibration validation: FAILED - High error
+2025-11-18 18:09:21,123 - HandEyeCalibrationNode - ERROR - Error saving calibration result to YAML: name 'yaml' is not defined
+2025-11-18 18:11:11,426 - HandEyeCalibrationNode - ERROR - Error loading calibration from YAML: name 'yaml' is not defined
+2025-11-18 18:11:11,426 - HandEyeCalibrationNode - INFO - No existing calibration found, will perform new calibration
+2025-11-18 18:11:11,426 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-18 18:11:11,452 - HandEyeCalibrationNode - INFO - Loaded 10 robot transforms and 10 camera transforms from calibration_data.json
+2025-11-18 18:11:11,452 - HandEyeCalibrationNode - INFO - Performing hand-eye calibration...
+2025-11-18 18:11:11,454 - HandEyeCalibrationNode - INFO - 
+        Hand-Eye Calibration Result:
+        Translation: [-0.153685, 0.223777, 0.000000] meters 
+        Rotation Matrix:
+        [[ 1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00 -1.0000000e+00 -1.2246468e-16]
+ [ 0.0000000e+00  1.2246468e-16 -1.0000000e+00]] 
+        Euler Angles (XYZ): [3.141593, 0.000000, 0.000000] radians
+        
+2025-11-18 18:11:11,454 - HandEyeCalibrationNode - INFO - Calibration completed!
+2025-11-18 18:11:11,454 - HandEyeCalibrationNode - INFO - Validating calibration results...
+2025-11-18 18:11:11,454 - HandEyeCalibrationNode - INFO - Sample 0: Error norm = 1.848117
+2025-11-18 18:11:11,454 - HandEyeCalibrationNode - INFO - Sample 1: Error norm = 1.721956
+2025-11-18 18:11:11,455 - HandEyeCalibrationNode - INFO - Sample 2: Error norm = 1.580004
+2025-11-18 18:11:11,455 - HandEyeCalibrationNode - INFO - Sample 3: Error norm = 1.465395
+2025-11-18 18:11:11,455 - HandEyeCalibrationNode - INFO - Sample 4: Error norm = 1.530776
+2025-11-18 18:11:11,455 - HandEyeCalibrationNode - INFO - Sample 5: Error norm = 1.749739
+2025-11-18 18:11:11,455 - HandEyeCalibrationNode - INFO - Sample 6: Error norm = 1.656518
+2025-11-18 18:11:11,455 - HandEyeCalibrationNode - INFO - Sample 7: Error norm = 1.624137
+2025-11-18 18:11:11,455 - HandEyeCalibrationNode - INFO - Sample 8: Error norm = 1.601939
+2025-11-18 18:11:11,455 - HandEyeCalibrationNode - INFO - Sample 9: Error norm = 1.653940
+2025-11-18 18:11:11,455 - HandEyeCalibrationNode - INFO - Validation Results:
+2025-11-18 18:11:11,455 - HandEyeCalibrationNode - INFO - Mean error: 1.643252
+2025-11-18 18:11:11,455 - HandEyeCalibrationNode - INFO - Std error: 0.104952
+2025-11-18 18:11:11,455 - HandEyeCalibrationNode - ERROR - Calibration validation: FAILED - High error
+2025-11-18 18:11:11,455 - HandEyeCalibrationNode - ERROR - Error saving calibration result to YAML: name 'yaml' is not defined
+2025-11-18 18:19:45,388 - HandEyeCalibrationNode - ERROR - Error loading calibration from YAML: name 'yaml' is not defined
+2025-11-18 18:19:45,389 - HandEyeCalibrationNode - INFO - No existing calibration found, will perform new calibration
+2025-11-18 18:19:45,389 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-18 18:19:45,415 - HandEyeCalibrationNode - INFO - Loaded 10 robot transforms and 10 camera transforms from calibration_data.json
+2025-11-18 18:19:45,415 - HandEyeCalibrationNode - INFO - Performing hand-eye calibration...
+2025-11-18 18:19:45,417 - HandEyeCalibrationNode - INFO - 
+        Hand-Eye Calibration Result:
+        Translation: [-0.153685, 0.223777, 0.000000] meters 
+        Rotation Matrix:
+        [[ 1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00 -1.0000000e+00 -1.2246468e-16]
+ [ 0.0000000e+00  1.2246468e-16 -1.0000000e+00]] 
+        Euler Angles (XYZ): [3.141593, 0.000000, 0.000000] radians
+        
+2025-11-18 18:19:45,417 - HandEyeCalibrationNode - INFO - Calibration completed!
+2025-11-18 18:19:45,418 - HandEyeCalibrationNode - INFO - Validating calibration results...
+2025-11-18 18:19:45,418 - HandEyeCalibrationNode - INFO - Sample 0: Error norm = 1.848117
+2025-11-18 18:19:45,418 - HandEyeCalibrationNode - INFO - Sample 1: Error norm = 1.721956
+2025-11-18 18:19:45,418 - HandEyeCalibrationNode - INFO - Sample 2: Error norm = 1.580004
+2025-11-18 18:19:45,418 - HandEyeCalibrationNode - INFO - Sample 3: Error norm = 1.465395
+2025-11-18 18:19:45,418 - HandEyeCalibrationNode - INFO - Sample 4: Error norm = 1.530776
+2025-11-18 18:19:45,418 - HandEyeCalibrationNode - INFO - Sample 5: Error norm = 1.749739
+2025-11-18 18:19:45,418 - HandEyeCalibrationNode - INFO - Sample 6: Error norm = 1.656518
+2025-11-18 18:19:45,418 - HandEyeCalibrationNode - INFO - Sample 7: Error norm = 1.624137
+2025-11-18 18:19:45,418 - HandEyeCalibrationNode - INFO - Sample 8: Error norm = 1.601939
+2025-11-18 18:19:45,418 - HandEyeCalibrationNode - INFO - Sample 9: Error norm = 1.653940
+2025-11-18 18:19:45,419 - HandEyeCalibrationNode - INFO - Validation Results:
+2025-11-18 18:19:45,419 - HandEyeCalibrationNode - INFO - Mean error: 1.643252
+2025-11-18 18:19:45,419 - HandEyeCalibrationNode - INFO - Std error: 0.104952
+2025-11-18 18:19:45,419 - HandEyeCalibrationNode - ERROR - Calibration validation: FAILED - High error
+2025-11-18 18:19:45,419 - HandEyeCalibrationNode - ERROR - Error saving calibration result to YAML: name 'yaml' is not defined
+2025-11-18 18:33:04,714 - HandEyeCalibrationNode - ERROR - Error loading calibration from YAML: 'NoneType' object is not subscriptable
+2025-11-18 18:33:04,714 - HandEyeCalibrationNode - INFO - No existing calibration found, will perform new calibration
+2025-11-18 18:33:04,714 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-18 18:33:04,733 - HandEyeCalibrationNode - INFO - Loaded 10 robot transforms and 10 camera transforms from calibration_data.json
+2025-11-18 18:33:04,733 - HandEyeCalibrationNode - INFO - Performing hand-eye calibration...
+2025-11-18 18:33:04,734 - HandEyeCalibrationNode - INFO - 
+        Hand-Eye Calibration Result:
+        Translation: [-0.183877, -10.275153, 0.299861] meters 
+        Rotation Matrix:
+        [[ 1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00 -1.0000000e+00 -1.2246468e-16]
+ [ 0.0000000e+00  1.2246468e-16 -1.0000000e+00]] 
+        Euler Angles (XYZ): [3.141593, 0.000000, 0.000000] radians
+        
+2025-11-18 18:33:04,734 - HandEyeCalibrationNode - INFO - Calibration completed!
+2025-11-18 18:33:04,734 - HandEyeCalibrationNode - INFO - Validating calibration results...
+2025-11-18 18:33:04,735 - HandEyeCalibrationNode - INFO - Sample 0: Error norm = 3.908012
+2025-11-18 18:33:04,735 - HandEyeCalibrationNode - INFO - Sample 1: Error norm = 3.906753
+2025-11-18 18:33:04,735 - HandEyeCalibrationNode - INFO - Sample 2: Error norm = 2.048615
+2025-11-18 18:33:04,735 - HandEyeCalibrationNode - INFO - Sample 3: Error norm = 1.458510
+2025-11-18 18:33:04,735 - HandEyeCalibrationNode - INFO - Sample 4: Error norm = 2.404924
+2025-11-18 18:33:04,735 - HandEyeCalibrationNode - INFO - Sample 5: Error norm = 4.339636
+2025-11-18 18:33:04,735 - HandEyeCalibrationNode - INFO - Sample 6: Error norm = 2.991416
+2025-11-18 18:33:04,735 - HandEyeCalibrationNode - INFO - Sample 7: Error norm = 2.985011
+2025-11-18 18:33:04,735 - HandEyeCalibrationNode - INFO - Sample 8: Error norm = 3.052525
+2025-11-18 18:33:04,735 - HandEyeCalibrationNode - INFO - Sample 9: Error norm = 3.101784
+2025-11-18 18:33:04,735 - HandEyeCalibrationNode - INFO - Validation Results:
+2025-11-18 18:33:04,735 - HandEyeCalibrationNode - INFO - Mean error: 3.019719
+2025-11-18 18:33:04,735 - HandEyeCalibrationNode - INFO - Std error: 0.841801
+2025-11-18 18:33:04,735 - HandEyeCalibrationNode - ERROR - Calibration validation: FAILED - High error
+2025-11-18 18:33:04,736 - HandEyeCalibrationNode - INFO - Calibration result saved to hand_eye_calibration.yaml
+2025-11-19 09:43:37,992 - HandEyeCalibrationNode - INFO - Calibration matrix loaded from hand_eye_calibration.yaml
+2025-11-19 09:43:37,992 - HandEyeCalibrationNode - INFO - Loaded calibration from builtin_interfaces.msg.Time(sec=0, nanosec=0) with 10 samples
+2025-11-19 09:43:37,992 - HandEyeCalibrationNode - INFO - Loaded existing calibration matrix
+2025-11-19 09:43:37,992 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-19 09:44:06,487 - HandEyeCalibrationNode - INFO - Calibration matrix loaded from hand_eye_calibration.yaml
+2025-11-19 09:44:06,488 - HandEyeCalibrationNode - INFO - Loaded calibration from builtin_interfaces.msg.Time(sec=0, nanosec=0) with 10 samples
+2025-11-19 09:44:06,488 - HandEyeCalibrationNode - INFO - Loaded existing calibration matrix
+2025-11-19 09:44:06,488 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-19 09:44:51,771 - HandEyeCalibrationNode - INFO - Calibration matrix loaded from hand_eye_calibration.yaml
+2025-11-19 09:44:51,772 - HandEyeCalibrationNode - INFO - Loaded calibration from builtin_interfaces.msg.Time(sec=0, nanosec=0) with 10 samples
+2025-11-19 09:44:51,772 - HandEyeCalibrationNode - INFO - Loaded existing calibration matrix
+2025-11-19 09:44:51,772 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-19 09:46:08,434 - HandEyeCalibrationNode - INFO - Calibration matrix loaded from hand_eye_calibration.yaml
+2025-11-19 09:46:08,435 - HandEyeCalibrationNode - INFO - Loaded calibration from builtin_interfaces.msg.Time(sec=0, nanosec=0) with 10 samples
+2025-11-19 09:46:08,435 - HandEyeCalibrationNode - INFO - Loaded existing calibration matrix
+2025-11-19 09:46:08,435 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-19 09:46:33,761 - HandEyeCalibrationNode - INFO - Calibration matrix loaded from hand_eye_calibration.yaml
+2025-11-19 09:46:33,761 - HandEyeCalibrationNode - INFO - Loaded calibration from builtin_interfaces.msg.Time(sec=0, nanosec=0) with 10 samples
+2025-11-19 09:46:33,761 - HandEyeCalibrationNode - INFO - Loaded existing calibration matrix
+2025-11-19 09:46:33,761 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-19 09:46:33,811 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:46:46,034 - HandEyeCalibrationNode - INFO - Calibration matrix loaded from hand_eye_calibration.yaml
+2025-11-19 09:46:46,034 - HandEyeCalibrationNode - INFO - Loaded calibration from builtin_interfaces.msg.Time(sec=0, nanosec=0) with 10 samples
+2025-11-19 09:46:46,034 - HandEyeCalibrationNode - INFO - Loaded existing calibration matrix
+2025-11-19 09:46:46,034 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-19 09:46:46,079 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:46:46,080 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:54:37,821 - HandEyeCalibrationNode - INFO - Calibration matrix loaded from hand_eye_calibration.yaml
+2025-11-19 09:54:37,821 - HandEyeCalibrationNode - INFO - Loaded calibration from builtin_interfaces.msg.Time(sec=0, nanosec=0) with 10 samples
+2025-11-19 09:54:37,821 - HandEyeCalibrationNode - INFO - Loaded existing calibration matrix
+2025-11-19 09:54:37,821 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-19 09:54:37,867 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:54:37,868 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:54:59,560 - HandEyeCalibrationNode - INFO - Calibration matrix loaded from hand_eye_calibration.yaml
+2025-11-19 09:54:59,561 - HandEyeCalibrationNode - INFO - Loaded calibration from builtin_interfaces.msg.Time(sec=0, nanosec=0) with 10 samples
+2025-11-19 09:54:59,561 - HandEyeCalibrationNode - INFO - Loaded existing calibration matrix
+2025-11-19 09:54:59,561 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-19 09:54:59,607 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:54:59,608 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:54:59,608 - HandEyeCalibrationNode - INFO - Translation: [ 0.05489938 -0.0888482   0.48930362]
+2025-11-19 09:54:59,609 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 0.78322362  0.00354852  0.62172998]
+ [ 0.00116643  0.99997357 -0.00717675]
+ [-0.62173901  0.00634621  0.78319878]]
+2025-11-19 09:55:52,148 - HandEyeCalibrationNode - INFO - Calibration matrix loaded from hand_eye_calibration.yaml
+2025-11-19 09:55:52,148 - HandEyeCalibrationNode - INFO - Loaded calibration from builtin_interfaces.msg.Time(sec=0, nanosec=0) with 10 samples
+2025-11-19 09:55:52,148 - HandEyeCalibrationNode - INFO - Loaded existing calibration matrix
+2025-11-19 09:55:52,148 - HandEyeCalibrationNode - INFO - Hand Eye Calibration Node started
+2025-11-19 09:55:52,200 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,201 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,202 - HandEyeCalibrationNode - INFO - Translation: [ 0.05489938 -0.0888482   0.48930362]
+2025-11-19 09:55:52,202 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 0.78322362  0.00354852  0.62172998]
+ [ 0.00116643  0.99997357 -0.00717675]
+ [-0.62173901  0.00634621  0.78319878]]
+2025-11-19 09:55:52,238 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,239 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,239 - HandEyeCalibrationNode - INFO - Translation: [-0.10814119 -0.08273564  0.38767178]
+2025-11-19 09:55:52,240 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.79727610e-01  7.33290660e-04  2.00332906e-01]
+ [ 3.68948893e-04  9.99985001e-01 -5.46464932e-03]
+ [-2.00333908e-01  5.42778042e-03  9.79712644e-01]]
+2025-11-19 09:55:52,246 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,247 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,248 - HandEyeCalibrationNode - INFO - Translation: [-0.09177869 -0.08203697  0.38366862]
+2025-11-19 09:55:52,248 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.53347790e-01 -1.25093817e-03 -3.01871541e-01]
+ [-3.36177744e-04  9.99986394e-01 -5.20557670e-03]
+ [ 3.01873945e-01  5.06420754e-03  9.53334398e-01]]
+2025-11-19 09:55:52,256 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,257 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,257 - HandEyeCalibrationNode - INFO - Translation: [-0.12220582 -0.08502442  0.40917605]
+2025-11-19 09:55:52,257 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.24906979e-01  1.57706213e-03  3.80190207e-01]
+ [ 7.08603713e-04  9.99982509e-01 -5.87186894e-03]
+ [-3.80192817e-01  5.70033676e-03  9.24889684e-01]]
+2025-11-19 09:55:52,265 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,265 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,266 - HandEyeCalibrationNode - INFO - Translation: [-0.10794881 -0.07852617  0.40736161]
+2025-11-19 09:55:52,266 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.98639032e-01  1.22531993e-04  5.21542836e-02]
+ [ 1.75763452e-04  9.99983655e-01 -5.71485626e-03]
+ [-5.21541313e-02  5.71624534e-03  9.98622687e-01]]
+2025-11-19 09:55:52,275 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,276 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,277 - HandEyeCalibrationNode - INFO - Translation: [-0.12006985 -0.08337413  0.54587696]
+2025-11-19 09:55:52,277 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.23214600e-01  1.67834121e-03  3.84281129e-01]
+ [ 6.42657074e-04  9.99982321e-01 -5.91135438e-03]
+ [-3.84284256e-01  5.70440966e-03  9.23197200e-01]]
+2025-11-19 09:55:52,284 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,284 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,285 - HandEyeCalibrationNode - INFO - Translation: [-0.18159467 -0.09919572  0.42222066]
+2025-11-19 09:55:52,285 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.89569870e-01 -7.42275030e-04 -1.44051801e-01]
+ [-7.62495177e-05  9.99983885e-01 -5.67655030e-03]
+ [ 1.44053693e-01  5.62832703e-03  9.89553867e-01]]
+2025-11-19 09:55:52,292 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,293 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,294 - HandEyeCalibrationNode - INFO - Translation: [-0.11973052 -0.08313504  0.36974575]
+2025-11-19 09:55:52,294 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.22934720e-01  1.58901015e-03  3.84953214e-01]
+ [ 6.90496907e-04  9.99983039e-01 -5.78321388e-03]
+ [-3.84955874e-01  5.60333789e-03  9.22917969e-01]]
+2025-11-19 09:55:52,303 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,304 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,304 - HandEyeCalibrationNode - INFO - Translation: [-0.05542649 -0.086831    0.43558789]
+2025-11-19 09:55:52,305 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 8.38507729e-01  2.15784389e-03  5.44885430e-01]
+ [ 8.61174484e-04  9.99985662e-01 -5.28535771e-03]
+ [-5.44889022e-01  4.90105472e-03  8.38493848e-01]]
+2025-11-19 09:55:52,306 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,307 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,307 - HandEyeCalibrationNode - INFO - Translation: [-0.0666504  -0.04986034  0.31458035]
+2025-11-19 09:55:52,307 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.88177221e-01 -5.64595416e-04 -1.53314906e-01]
+ [-2.46788448e-04  9.99986066e-01 -5.27318767e-03]
+ [ 1.53315747e-01  5.24868029e-03  9.88163313e-01]]
+2025-11-19 09:55:52,316 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,316 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,317 - HandEyeCalibrationNode - INFO - Translation: [-0.1155978  -0.08308058  0.43761943]
+2025-11-19 09:55:52,317 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.83883635e-01  9.42368375e-04  1.78807453e-01]
+ [-1.93764680e-06  9.99986168e-01 -5.25956221e-03]
+ [-1.78809936e-01  5.17445072e-03  9.83870028e-01]]
+2025-11-19 09:55:52,325 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,326 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,326 - HandEyeCalibrationNode - INFO - Translation: [-0.14895835 -0.1142177   0.46390033]
+2025-11-19 09:55:52,326 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.55356060e-01  1.31459023e-03  2.95454007e-01]
+ [ 4.49534866e-04  9.99982477e-01 -5.90289186e-03]
+ [-2.95456590e-01  5.77218039e-03  9.55338728e-01]]
+2025-11-19 09:55:52,335 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,336 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,337 - HandEyeCalibrationNode - INFO - Translation: [-0.11107589 -0.08456707  0.38651421]
+2025-11-19 09:55:52,337 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 8.92945926e-01  1.90651797e-03  4.50159902e-01]
+ [ 5.77313933e-04  9.99985359e-01 -5.38031079e-03]
+ [-4.50163569e-01  5.06421019e-03  8.92931752e-01]]
+2025-11-19 09:55:52,339 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,340 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,341 - HandEyeCalibrationNode - INFO - Translation: [-0.06758014 -0.04987332  0.32403014]
+2025-11-19 09:55:52,341 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.88206571e-01 -4.61946477e-04 -1.53125959e-01]
+ [-2.60296924e-04  9.99988937e-01 -4.69658117e-03]
+ [ 1.53126435e-01  4.68105059e-03  9.88195518e-01]]
+2025-11-19 09:55:52,348 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,349 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,349 - HandEyeCalibrationNode - INFO - Translation: [-0.11804598 -0.06948123  0.43497137]
+2025-11-19 09:55:52,349 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.99977882e-01 -6.47597655e-05 -6.65064777e-03]
+ [ 1.42458075e-05  9.99971157e-01 -7.59511057e-03]
+ [ 6.65094781e-03  7.59484784e-03  9.99949040e-01]]
+2025-11-19 09:55:52,358 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,358 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,359 - HandEyeCalibrationNode - INFO - Translation: [-0.15142347 -0.08284747  0.43432783]
+2025-11-19 09:55:52,359 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.79887431e-01  6.27159818e-04  1.99550066e-01]
+ [ 3.48489248e-04  9.99988158e-01 -4.85408322e-03]
+ [-1.99550747e-01  4.82599619e-03  9.79875609e-01]]
+2025-11-19 09:55:52,368 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,369 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,369 - HandEyeCalibrationNode - INFO - Translation: [-0.02814608 -0.08198693  0.32394882]
+2025-11-19 09:55:52,370 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.88143002e-01 -6.26408119e-04 -1.53535060e-01]
+ [-2.92359896e-04  9.99982188e-01 -5.96144195e-03]
+ [ 1.53536059e-01  5.93564464e-03  9.88125218e-01]]
+2025-11-19 09:55:52,377 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,378 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,379 - HandEyeCalibrationNode - INFO - Translation: [-0.05745274 -0.08310289  0.4365058 ]
+2025-11-19 09:55:52,379 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.84056166e-01  6.25345659e-04  1.77856885e-01]
+ [-6.86290257e-05  9.99995080e-01 -3.13627310e-03]
+ [-1.77857972e-01  3.07406274e-03  9.84051367e-01]]
+2025-11-19 09:55:52,380 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,381 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,381 - HandEyeCalibrationNode - INFO - Translation: [-0.08580353 -0.05948778  0.3108452 ]
+2025-11-19 09:55:52,382 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.98636482e-01  2.81311660e-04  5.22024708e-02]
+ [-6.50542459e-06  9.99986143e-01 -5.26433335e-03]
+ [-5.22032284e-02  5.25681573e-03  9.98622646e-01]]
+2025-11-19 09:55:52,391 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,392 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,393 - HandEyeCalibrationNode - INFO - Translation: [-0.12759306 -0.08203516  0.38368486]
+2025-11-19 09:55:52,393 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.53386216e-01 -1.31350753e-03 -3.01749893e-01]
+ [-3.44206636e-04  9.99985141e-01 -5.44043235e-03]
+ [ 3.01752555e-01  5.29069753e-03  9.53371598e-01]]
+2025-11-19 09:55:52,401 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,402 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,402 - HandEyeCalibrationNode - INFO - Translation: [-0.13215159 -0.08272544  0.38757203]
+2025-11-19 09:55:52,403 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.79913955e-01  4.95646927e-04  1.99420145e-01]
+ [ 2.67467894e-04  9.99992745e-01 -3.79971067e-03]
+ [-1.99420582e-01  3.77672800e-03  9.79906714e-01]]
+2025-11-19 09:55:52,412 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,413 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,413 - HandEyeCalibrationNode - INFO - Translation: [-0.02814355 -0.08197839  0.32391817]
+2025-11-19 09:55:52,414 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.88084985e-01 -5.97499097e-04 -1.53908107e-01]
+ [-3.23427123e-04  9.99982196e-01 -5.95850318e-03]
+ [ 1.53908927e-01  5.93728558e-03  9.88067200e-01]]
+2025-11-19 09:55:52,420 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,421 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,422 - HandEyeCalibrationNode - INFO - Translation: [-0.18506125 -0.0694095   0.43098115]
+2025-11-19 09:55:52,422 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.99267724e-01 -6.45535044e-06  3.82624553e-02]
+ [ 2.13735499e-04  9.99985325e-01 -5.41323678e-03]
+ [-3.82618589e-02  5.41745084e-03  9.99253062e-01]]
+2025-11-19 09:55:52,430 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,431 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,431 - HandEyeCalibrationNode - INFO - Translation: [-0.10940235 -0.08310765  0.43442902]
+2025-11-19 09:55:52,432 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.98553849e-01  1.70086159e-04  5.37604040e-02]
+ [ 2.17216001e-04  9.99974068e-01 -7.19830197e-03]
+ [-5.37602342e-02  7.19956976e-03  9.98527918e-01]]
+2025-11-19 09:55:52,440 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,440 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,441 - HandEyeCalibrationNode - INFO - Translation: [-0.10458274 -0.11429356  0.45058282]
+2025-11-19 09:55:52,441 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.55487759e-01  1.18623768e-03  2.95028364e-01]
+ [ 4.84837173e-04  9.99984253e-01 -5.59090305e-03]
+ [-2.95030350e-01  5.48508015e-03  9.55472138e-01]]
+2025-11-19 09:55:52,448 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,449 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,449 - HandEyeCalibrationNode - INFO - Translation: [-0.11595286 -0.08327689  0.49611568]
+2025-11-19 09:55:52,449 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.81677804e-01  7.57632803e-04  1.90546883e-01]
+ [ 2.18301055e-04  9.99986967e-01 -5.10070915e-03]
+ [-1.90548264e-01  5.04884954e-03  9.81664845e-01]]
+2025-11-19 09:55:52,458 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,459 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,460 - HandEyeCalibrationNode - INFO - Translation: [-0.10825314 -0.08292384  0.44532729]
+2025-11-19 09:55:52,460 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.79812549e-01  1.04430314e-03  1.99915678e-01]
+ [ 1.87498910e-04  9.99981117e-01 -6.14257578e-03]
+ [-1.99918318e-01  6.05605680e-03  9.79793851e-01]]
+2025-11-19 09:55:52,461 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,462 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,462 - HandEyeCalibrationNode - INFO - Translation: [-0.0674307  -0.04990822  0.27918859]
+2025-11-19 09:55:52,462 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.88121312e-01 -5.16094912e-04 -1.53675004e-01]
+ [-1.51901423e-04  9.99990592e-01 -4.33503869e-03]
+ [ 1.53675796e-01  4.30688757e-03  9.88111937e-01]]
+2025-11-19 09:55:52,469 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,470 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,470 - HandEyeCalibrationNode - INFO - Translation: [-0.13606589 -0.06942411  0.43100654]
+2025-11-19 09:55:52,470 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.99259077e-01  1.92970163e-05  3.84876297e-02]
+ [ 1.59097889e-04  9.99989259e-01 -4.63205502e-03]
+ [-3.84873058e-02  4.63474632e-03  9.99248341e-01]]
+2025-11-19 09:55:52,480 - HandEyeCalibrationNode - INFO - ret=True
+2025-11-19 09:55:52,481 - HandEyeCalibrationNode - INFO - Estimating pose...
+2025-11-19 09:55:52,481 - HandEyeCalibrationNode - INFO - Translation: [-0.16405506 -0.09921282  0.45971746]
+2025-11-19 09:55:52,482 - HandEyeCalibrationNode - INFO - Rotation Matrix:
+[[ 9.80487684e-01 -7.25929353e-04 -1.96579181e-01]
+ [-8.92965070e-05  9.99991434e-01 -4.13816588e-03]
+ [ 1.96580501e-01  4.07497452e-03  9.80479220e-01]]
+2025-11-19 09:55:52,485 - HandEyeCalibrationNode - INFO - Loaded 30 robot transforms and 30 camera transforms from calibration_data.json
+2025-11-19 09:56:09,246 - HandEyeCalibrationNode - INFO - Performing hand-eye calibration...
+2025-11-19 09:56:09,255 - HandEyeCalibrationNode - INFO - 
+        Hand-Eye Calibration Result:
+        Translation: [-0.227512, -0.089344, 0.000000] meters 
+        Rotation Matrix:
+        [[ 1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00 -1.0000000e+00 -1.2246468e-16]
+ [ 0.0000000e+00  1.2246468e-16 -1.0000000e+00]] 
+        Euler Angles (XYZ): [3.141593, 0.000000, 0.000000] radians
+        
+2025-11-19 09:56:09,256 - HandEyeCalibrationNode - INFO - Calibration completed!
+2025-11-19 09:56:09,256 - HandEyeCalibrationNode - INFO - Validating calibration results...
+2025-11-19 09:56:09,258 - HandEyeCalibrationNode - INFO - Sample 0: Error norm = 1.802489
+2025-11-19 09:56:09,258 - HandEyeCalibrationNode - INFO - Sample 1: Error norm = 1.387851
+2025-11-19 09:56:09,258 - HandEyeCalibrationNode - INFO - Sample 2: Error norm = 1.416557
+2025-11-19 09:56:09,258 - HandEyeCalibrationNode - INFO - Sample 3: Error norm = 1.443715
+2025-11-19 09:56:09,258 - HandEyeCalibrationNode - INFO - Sample 4: Error norm = 1.322519
+2025-11-19 09:56:09,258 - HandEyeCalibrationNode - INFO - Sample 5: Error norm = 1.536950
+2025-11-19 09:56:09,258 - HandEyeCalibrationNode - INFO - Sample 6: Error norm = 1.314439
+2025-11-19 09:56:09,258 - HandEyeCalibrationNode - INFO - Sample 7: Error norm = 1.375937
+2025-11-19 09:56:09,258 - HandEyeCalibrationNode - INFO - Sample 8: Error norm = 1.555568
+2025-11-19 09:56:09,259 - HandEyeCalibrationNode - INFO - Sample 9: Error norm = 1.259229
+2025-11-19 09:56:09,259 - HandEyeCalibrationNode - INFO - Sample 10: Error norm = 1.330926
+2025-11-19 09:56:09,259 - HandEyeCalibrationNode - INFO - Sample 11: Error norm = 1.432395
+2025-11-19 09:56:09,259 - HandEyeCalibrationNode - INFO - Sample 12: Error norm = 1.464035
+2025-11-19 09:56:09,259 - HandEyeCalibrationNode - INFO - Sample 13: Error norm = 1.362492
+2025-11-19 09:56:09,259 - HandEyeCalibrationNode - INFO - Sample 14: Error norm = 1.505879
+2025-11-19 09:56:09,259 - HandEyeCalibrationNode - INFO - Sample 15: Error norm = 1.437245
+2025-11-19 09:56:09,259 - HandEyeCalibrationNode - INFO - Sample 16: Error norm = 1.326538
+2025-11-19 09:56:09,259 - HandEyeCalibrationNode - INFO - Sample 17: Error norm = 1.388698
+2025-11-19 09:56:09,259 - HandEyeCalibrationNode - INFO - Sample 18: Error norm = 1.246039
+2025-11-19 09:56:09,259 - HandEyeCalibrationNode - INFO - Sample 19: Error norm = 1.383341
+2025-11-19 09:56:09,259 - HandEyeCalibrationNode - INFO - Sample 20: Error norm = 1.342343
+2025-11-19 09:56:09,259 - HandEyeCalibrationNode - INFO - Sample 21: Error norm = 1.301819
+2025-11-19 09:56:09,260 - HandEyeCalibrationNode - INFO - Sample 22: Error norm = 1.369552
+2025-11-19 09:56:09,260 - HandEyeCalibrationNode - INFO - Sample 23: Error norm = 1.452488
+2025-11-19 09:56:09,260 - HandEyeCalibrationNode - INFO - Sample 24: Error norm = 1.520163
+2025-11-19 09:56:09,260 - HandEyeCalibrationNode - INFO - Sample 25: Error norm = 1.535977
+2025-11-19 09:56:09,260 - HandEyeCalibrationNode - INFO - Sample 26: Error norm = 1.491291
+2025-11-19 09:56:09,260 - HandEyeCalibrationNode - INFO - Sample 27: Error norm = 1.378549
+2025-11-19 09:56:09,260 - HandEyeCalibrationNode - INFO - Sample 28: Error norm = 1.541809
+2025-11-19 09:56:09,260 - HandEyeCalibrationNode - INFO - Sample 29: Error norm = 1.550999
+2025-11-19 09:56:09,261 - HandEyeCalibrationNode - INFO - Validation Results:
+2025-11-19 09:56:09,261 - HandEyeCalibrationNode - INFO - Mean error: 1.425928
+2025-11-19 09:56:09,261 - HandEyeCalibrationNode - INFO - Std error: 0.111885
+2025-11-19 09:56:09,261 - HandEyeCalibrationNode - ERROR - Calibration validation: FAILED - High error
+2025-11-19 09:56:09,263 - HandEyeCalibrationNode - INFO - Calibration result saved to hand_eye_calibration.yaml

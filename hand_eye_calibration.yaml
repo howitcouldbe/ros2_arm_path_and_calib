@@ -1,0 +1,13 @@
+hand_eye_calibration:
+  sample_count: 30
+  timestamp: builtin_interfaces.msg.Time(sec=0, nanosec=0)
+  transform:
+    rotation:
+      w: 6.123233995736766e-17
+      x: 1.0
+      y: 0.0
+      z: 0.0
+    translation:
+      x: -0.2275120135549647
+      y: -0.0893437534212135
+      z: 0.0

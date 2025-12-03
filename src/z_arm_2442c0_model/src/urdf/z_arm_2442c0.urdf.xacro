@@ -576,6 +576,34 @@
     <axis
       xyz="0 0 0" />
   </joint>
+    <!-- 在机械臂末端添加摄像头 -->
+  <link name="calib_camera_link">
+    <visual>
+      <geometry>
+        <box size="0.01 0.01 0.01"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    
+    <collision>
+      <geometry>
+        <box size="0.01 0.01 0.01"/>
+      </geometry>
+    </collision>
+    
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
+    </inertial>
+  </link>
+
+  <joint name="calib_camera_joint" type="fixed">
+    <parent link="camera_base_link"/>  <!-- 替换为您的末端连杆 -->
+    <child link="calib_camera_link"/>
+    <origin xyz="0.2 0 0.1" rpy="0 0 0"/>  <!-- 摄像头位置偏移 -->
+  </joint>
 
   <gazebo reference="base_link">
         <self_collide>false</self_collide>
@@ -621,6 +649,11 @@
     <gazebo reference="camera_3_link">
         <self_collide>false</self_collide>
         <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="calib_camera_link">
+        <self_collide>false</self_collide>
+        <gravity>false</gravity>
+        <material>Gazebo/Red</material>
     </gazebo>
     
 
@@ -676,27 +709,6 @@
             </state_interface>
             <state_interface name="velocity"/>
         </joint>
-        <!-- <joint name="camera_1_joint">
-            <command_interface name="position"/>
-            <state_interface name="position">
-                <param name="initial_value">0</param>
-            </state_interface>
-            <state_interface name="velocity"/>
-        </joint>
-        <joint name="camera_2_joint">
-            <command_interface name="position"/>
-            <state_interface name="position">
-                <param name="initial_value">0</param>
-            </state_interface>
-            <state_interface name="velocity"/>
-        </joint>
-        <joint name="camera_3_joint">
-            <command_interface name="position"/>
-            <state_interface name="position">
-                <param name="initial_value">0</param>
-            </state_interface>
-            <state_interface name="velocity"/>
-        </joint> -->
     </ros2_control>
 
        <!-- 加载ros2_control插件 -->
@@ -706,5 +718,31 @@
             <robot_param>robot_description</robot_param>
             <robot_param_node>robot_state_publisher</robot_param_node>
         </plugin>
+    </gazebo>
+      <!-- Gazebo摄像头插件 -->
+    <gazebo reference="calib_camera_link">
+      <sensor type="camera" name="calib_camera_sensor">
+        <update_rate>30.0</update_rate>
+        <camera name="calib_camera">
+          <horizontal_fov>1.047</horizontal_fov>
+          <image>
+            <width>640</width>
+            <height>480</height>
+            <format>R8G8B8</format>
+          </image>
+          <clip>
+            <near>0.05</near>
+            <far>10.0</far>
+          </clip>
+        </camera>
+        <plugin name="calib_camera_controller" filename="libgazebo_ros_camera.so">
+          <alwaysOn>true</alwaysOn>
+          <updateRate>0.0</updateRate>
+          <cameraName>virtual_camera</cameraName>
+          <imageTopicName>image_raw</imageTopicName>
+          <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+          <frameName>calib_camera_link</frameName>
+        </plugin>
+      </sensor>
     </gazebo>
 </robot>
